@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DarioCruz.dev',
-  tagline: 'The Site/Blog of Dario Cruz IT Professional',
+  tagline: 'The Site|Blog|Portfolio of Dario Cruz IT Professional',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dario-cruz', // Usually your GitHub org/user name.
+  projectName: 'dariocruz.dev', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -90,11 +90,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Socials',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/dariocru/',
               },
             ],
           },
