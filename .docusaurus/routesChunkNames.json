@@ -1,8 +1,8 @@
 {
-  "/blog-d6e": {
+  "/blog-e21": {
     "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -19,60 +19,60 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "b2b675dd"
+    "__props": "53a3e6dc"
   },
-  "/blog/archive-2ad": {
+  "/blog/archive-245": {
     "__comp": "9e4087bc",
     "__context": {
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
-    "archive": "b2f554cd"
+    "__props": "25003e4f"
   },
-  "/blog/first-blog-post-d47": {
+  "/blog/first-blog-post-89a": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
         "blogMetadata": "acecf23e"
       },
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/blog/long-blog-post-69e": {
+  "/blog/long-blog-post-9ad": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
         "blogMetadata": "acecf23e"
       },
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/blog/mdx-blog-post-597": {
+  "/blog/mdx-blog-post-e9f": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
         "blogMetadata": "acecf23e"
       },
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/blog/tags-b0b": {
+  "/blog/tags-4c4": {
     "__comp": "01a85c17",
     "__context": {
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "tags": "a7023ddc"
+    "__props": "41756ce8"
   },
-  "/blog/tags/docusaurus-ea0": {
+  "/blog/tags/docusaurus-fb9": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -89,13 +89,12 @@
         "content": "925b3f96"
       }
     ],
-    "tag": "a80da1cf",
-    "listMetadata": "608ae6a4"
+    "__props": "f752113f"
   },
-  "/blog/tags/facebook-d23": {
+  "/blog/tags/facebook-aba": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -103,13 +102,12 @@
         "content": "7661071f"
       }
     ],
-    "tag": "031793e1",
-    "listMetadata": "096bfee4"
+    "__props": "a3226c22"
   },
-  "/blog/tags/hello-0df": {
+  "/blog/tags/hello-41a": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -120,13 +118,12 @@
         "content": "8717b14a"
       }
     ],
-    "tag": "30a24c52",
-    "listMetadata": "66406991"
+    "__props": "9d2a5b67"
   },
-  "/blog/tags/hola-345": {
+  "/blog/tags/hola-8e5": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -134,50 +131,49 @@
         "content": "925b3f96"
       }
     ],
-    "tag": "e16015ca",
-    "listMetadata": "4c9e35b1"
+    "__props": "fbc76f6c"
   },
-  "/blog/welcome-447": {
+  "/blog/welcome-d2b": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
         "blogMetadata": "acecf23e"
       },
-      "plugin": "5bc21aaa"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/markdown-page-338": {
+  "/markdown-page-3d7": {
     "__comp": "1f391b9e",
     "__context": {
-      "plugin": "ec92d49d"
+      "plugin": "a7456010"
     },
     "content": "393be207"
   },
-  "/nothing-c39": {
+  "/nothing-7e4": {
     "__comp": "1537a8be",
     "__context": {
-      "plugin": "ec92d49d"
+      "plugin": "a7456010"
     },
     "config": "5e9f5e1a"
   },
-  "/docs-c81": {
+  "/docs-32a": {
     "__comp": "5e95c892",
     "__context": {
-      "plugin": "4a0e474f"
+      "plugin": "aba21aa0"
     }
   },
-  "/docs-b67": {
+  "/docs-0ea": {
     "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+    "__props": "7c110bd0"
   },
-  "/docs-136": {
+  "/docs-c36": {
     "__comp": "a94703ab"
   },
-  "/docs/category/javascript-projects-7de": {
+  "/docs/category/javascript-projects-ea2": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "00f66e2a"
+    "__props": "5af800d4"
   },
   "/docs/intro-61d": {
     "__comp": "17896441",
@@ -187,10 +183,10 @@
     "__comp": "17896441",
     "content": "535d70a0"
   },
-  "/-e19": {
+  "/-2bc": {
     "__comp": "1f391b9e",
     "__context": {
-      "plugin": "ec92d49d"
+      "plugin": "a7456010"
     },
     "content": "f3976560"
   }
