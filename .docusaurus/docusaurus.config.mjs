@@ -7,7 +7,7 @@ export default {
   "title": "DarioCruz.dev",
   "tagline": "The Site|Blog|Portfolio of Dario Cruz IT Professional",
   "favicon": "img/favicon.ico",
-  "url": "https://dariocruz.dev",
+  "url": "https://www.dariocruz.dev",
   "baseUrl": "/",
   "organizationName": "dario-cruz",
   "projectName": "dariocruz.dev",

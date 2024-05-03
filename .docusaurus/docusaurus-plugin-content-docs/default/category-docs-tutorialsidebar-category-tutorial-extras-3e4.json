@@ -4,8 +4,8 @@
   "permalink": "/docs/category/tutorial---extras",
   "navigation": {
     "previous": {
-      "title": "Congratulations!",
-      "permalink": "/docs/tutorial-basics/congratulations"
+      "title": "Etch-A-Sketch",
+      "permalink": "/docs/JavaScript/etch-a-sketch"
     },
     "next": {
       "title": "Manage Docs Versions",

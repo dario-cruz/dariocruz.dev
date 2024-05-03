@@ -1,0 +1,21 @@
+{
+  "id": "JavaScript/etch-a-sketch",
+  "title": "Etch-A-Sketch",
+  "description": "Etch-A-Sketch Image",
+  "source": "@site/docs/JavaScript/etch-a-sketch.md",
+  "sourceDirName": "JavaScript",
+  "slug": "/JavaScript/etch-a-sketch",
+  "permalink": "/docs/JavaScript/etch-a-sketch",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_positoin": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript Projects",
+    "permalink": "/docs/category/javascript-projects"
+  }
+}

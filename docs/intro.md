@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Projects
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome, if you have found this page then you are interested in seeing some of the work that I do in my day to day as an IT Professional.
 
 ## Getting Started
 
