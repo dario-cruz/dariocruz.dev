@@ -39,7 +39,8 @@
     ]
   },
   "engines": {
-    "node": ">=20.0"
+    "node": ">=20.0",
+    "npm": ">=9.8.1"
   },
   "description": "This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.",
   "main": "babel.config.js",
