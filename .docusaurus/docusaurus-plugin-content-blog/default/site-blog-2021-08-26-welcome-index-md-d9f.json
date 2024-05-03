@@ -1,57 +1,55 @@
 {
-  "permalink": "/blog/welcome",
+  "permalink": "/blog/Site Up and Running",
   "source": "@site/blog/2021-08-26-welcome/index.md",
-  "title": "Welcome",
-  "description": "Docusaurus blogging features are powered by the blog plugin.",
+  "title": "Site Up and Running",
+  "description": "Hello all, 👋🏽",
   "date": "2021-08-26T00:00:00.000Z",
   "tags": [
     {
-      "label": "facebook",
-      "permalink": "/blog/tags/facebook"
+      "label": "welcome",
+      "permalink": "/blog/tags/welcome"
     },
     {
-      "label": "hello",
-      "permalink": "/blog/tags/hello"
+      "label": "website",
+      "permalink": "/blog/tags/website"
     },
     {
-      "label": "docusaurus",
-      "permalink": "/blog/tags/docusaurus"
+      "label": "azure",
+      "permalink": "/blog/tags/azure"
+    },
+    {
+      "label": "cicd",
+      "permalink": "/blog/tags/cicd"
+    },
+    {
+      "label": "react",
+      "permalink": "/blog/tags/react"
     }
   ],
-  "readingTime": 0.405,
+  "readingTime": 0.475,
   "hasTruncateMarker": false,
   "authors": [
     {
-      "name": "Sébastien Lorber",
-      "title": "Docusaurus maintainer",
-      "url": "https://sebastienlorber.com",
-      "imageURL": "https://github.com/slorber.png",
-      "key": "slorber"
-    },
-    {
-      "name": "Yangshun Tay",
-      "title": "Front End Engineer @ Facebook",
-      "url": "https://github.com/yangshun",
-      "imageURL": "https://github.com/yangshun.png",
-      "key": "yangshun"
+      "name": "Dario Cruz",
+      "title": "Maintainer of DarioCruz.dev",
+      "url": "https://github.com/dario-cruz",
+      "imageURL": "https://github.com/dario-cruz.png",
+      "key": "dcruz"
     }
   ],
   "frontMatter": {
-    "slug": "welcome",
-    "title": "Welcome",
+    "slug": "Site Up and Running",
+    "title": "Site Up and Running",
     "authors": [
-      "slorber",
-      "yangshun"
+      "dcruz"
     ],
     "tags": [
-      "facebook",
-      "hello",
-      "docusaurus"
+      "welcome",
+      "website",
+      "azure",
+      "cicd",
+      "react"
     ]
   },
-  "unlisted": false,
-  "nextItem": {
-    "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
-  }
+  "unlisted": false
 }
