@@ -9,7 +9,7 @@ JavaScript Etch-A-Sketch web app. The goal of which was to use JavaScript to cre
 ![Etch-A-Sketch Image](etch-a-sketch-js-project.png)
 
 
-#Links
+# Links
 
 ---
 

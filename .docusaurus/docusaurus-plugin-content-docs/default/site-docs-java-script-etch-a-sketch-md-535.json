@@ -1,7 +1,7 @@
 {
   "id": "JavaScript/etch-a-sketch",
   "title": "Etch-A-Sketch",
-  "description": "Etch-A-Sketch Image",
+  "description": "JavaScript Etch-A-Sketch web app. The goal of which was to use JavaScript to created the logic to allow the user to select which color they want to \"sketch with, allow them to erase their work if needed, and to impliment a rainbox mode to keep things interesting. 😉",
   "source": "@site/docs/JavaScript/etch-a-sketch.md",
   "sourceDirName": "JavaScript",
   "slug": "/JavaScript/etch-a-sketch",
