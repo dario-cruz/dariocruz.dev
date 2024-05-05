@@ -3,12 +3,13 @@ sidebar_positoin: 1
 ---
 
 # Etch-A-Sketch
+
+JavaScript Etch-A-Sketch web app. The goal of which was to use JavaScript to created the logic to allow the user to select which color they want to "sketch with, allow them to erase their work if needed, and to impliment a rainbox mode to keep things interesting. 😉
+
 ![Etch-A-Sketch Image](etch-a-sketch-js-project.png)
 
 
-## Project Info and Links
-
-JavaScript Etch-A-Sketch web app. The goal of which was to use JavaScript to created the logic to allow the user to select which color they want to "sketch with, allow them to erase their work if needed, and to impliment a rainbox mode to keep things interesting. 😉
+#Links
 
 ---
 
