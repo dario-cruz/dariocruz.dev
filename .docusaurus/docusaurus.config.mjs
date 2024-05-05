@@ -48,7 +48,7 @@ export default {
       "title": "DarioCruz.dev",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/dcdev-logo.png"
       },
       "items": [
         {

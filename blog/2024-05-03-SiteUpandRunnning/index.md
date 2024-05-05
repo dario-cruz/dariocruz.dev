@@ -6,6 +6,7 @@ tags: [welcome, website, azure, cicd, react]
 ---
 
 # Welcome to the Site
+![dude coding site](dude-coding-site.webp)
 
 Hello all, 👋🏽
 
@@ -15,5 +16,3 @@ Over the course of my experience I have had some amazing hands on time with some
 
 # Inception of the Site
 This site came about because I needed a place on the internet to share my work and my musings about technology, AI, and software development.
-
-
