@@ -5,6 +5,17 @@
  */
 
 /* You can override the default Infima variables here. */
+
+/* My Custom fonts */
+@font-face {
+  font-family: Frauces;
+  src: url('/static/font/Fraunces.ttf');
+}
+@font-face {
+  font-family: Frauces-Italic;
+  src: url('/static/font/Fraunces-Italic.ttf');
+}
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -28,3 +39,9 @@
   --ifm-color-primary-lightest: #f7d7ab;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/* Change all fonts to use custom. */
+/* :root {
+  --ifm-font-family-base: Frauces;
+} */
