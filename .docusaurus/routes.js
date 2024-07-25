@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/about',
-    component: ComponentCreator('/about', '954'),
+    component: ComponentCreator('/about', '8b4'),
     exact: true
   },
   {
@@ -135,7 +135,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '2bc'),
+    component: ComponentCreator('/', 'fd5'),
     exact: true
   },
   {
