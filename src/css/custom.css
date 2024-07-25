@@ -8,13 +8,10 @@
 
 /* My Custom fonts */
 @font-face {
-  font-family: Frauces;
-  src: url('/static/font/Fraunces.ttf');
+  font-family: JetBrains;
+  src: url('/static/font/JetBrainsMono.ttf');
 }
-@font-face {
-  font-family: Frauces-Italic;
-  src: url('/static/font/Fraunces-Italic.ttf');
-}
+
 
 :root {
   --ifm-color-primary: #2e8555;
@@ -42,6 +39,6 @@
 
 
 /* Change all fonts to use custom. */
-/* :root {
-  --ifm-font-family-base: Frauces;
-} */
+:root {
+  --ifm-font-family-base: JetBrains;
+}
