@@ -63,12 +63,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
-        },
-        {
-          "href": "https://linkedin.com/",
+          "href": "https://www.linkedin.com/in/dariocru/",
           "label": "LinkedIn",
           "position": "right"
         }

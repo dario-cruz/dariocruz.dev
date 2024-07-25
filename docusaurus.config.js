@@ -78,13 +78,13 @@ const config = {
             label: 'Projects',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-          {
-            href: 'https://linkedin.com/',
+            href: 'https://www.linkedin.com/in/dariocru/',
             label: 'LinkedIn',
             position: 'right',
           },
