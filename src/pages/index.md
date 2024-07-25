@@ -11,6 +11,7 @@ Since I work directly with all of my organization's tech oriented systems and pl
 Well, yes I am! Thanks for Asking.😁
 
 **Currently I hold the following Certifications**:
+
 - [Microsoft Identity and Access Adminitstrator Associate](https://learn.microsoft.com/api/credentials/share/en-us/dariocru/F986CA9C1395B648?sharingId=EA2F36B70C248D16) certification.🎉
 - [Google Certified Cybersecurity Professional](https://coursera.org/share/d8103b93a5fd4afde4f79325f3abf4dd) Certification.🎉
 

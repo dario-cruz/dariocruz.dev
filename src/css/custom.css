@@ -42,3 +42,11 @@
 :root {
   --ifm-font-family-base: JetBrains;
 }
+
+/* Site Color customization */
+.footer--dark {
+  --ifm-footer-background-color: rgb(0, 0, 0);
+}
+.navbar{
+  --ifm-navbar-background-color: rgb(0,0,0);
+}

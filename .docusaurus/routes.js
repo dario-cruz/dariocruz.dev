@@ -38,6 +38,11 @@ export default [
     exact: true
   },
   {
+    path: '/about',
+    component: ComponentCreator('/about', '954'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', 'a5e'),
     exact: true

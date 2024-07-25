@@ -52,6 +52,11 @@ export default {
       },
       "items": [
         {
+          "to": "/about",
+          "label": "About",
+          "position": "left"
+        },
+        {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",

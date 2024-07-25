@@ -71,6 +71,7 @@ const config = {
           src: 'img/dcdev-logo.png',
         },
         items: [
+          {to: '/about', label: 'About', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
