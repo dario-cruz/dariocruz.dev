@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'a5e'),
+    component: ComponentCreator('/blog', 'a1e'),
     exact: true
   },
   {
@@ -64,12 +64,37 @@ export default [
   },
   {
     path: '/blog/tags/azure',
-    component: ComponentCreator('/blog/tags/azure', 'b73'),
+    component: ComponentCreator('/blog/tags/azure', '8cd'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/certifications',
+    component: ComponentCreator('/blog/tags/certifications', 'a7b'),
     exact: true
   },
   {
     path: '/blog/tags/cicd',
     component: ComponentCreator('/blog/tags/cicd', '75b'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/cybersecurity',
+    component: ComponentCreator('/blog/tags/cybersecurity', '19d'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/google',
+    component: ComponentCreator('/blog/tags/google', '0a7'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hack-the-box',
+    component: ComponentCreator('/blog/tags/hack-the-box', '6bd'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/microsoft',
+    component: ComponentCreator('/blog/tags/microsoft', '887'),
     exact: true
   },
   {
@@ -85,6 +110,11 @@ export default [
   {
     path: '/blog/tags/welcome',
     component: ComponentCreator('/blog/tags/welcome', '5b6'),
+    exact: true
+  },
+  {
+    path: '/blog/The Journey So Far',
+    component: ComponentCreator('/blog/The Journey So Far', '7d2'),
     exact: true
   },
   {

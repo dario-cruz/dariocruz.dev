@@ -45,17 +45,20 @@
   "/about/-fdd": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---abouta-74-d48"
+      "plugin": "plugin---about-a-74-c06"
     },
     "content": "content---about-f-22-13e"
   },
-  "/blog-a5e": {
+  "/blog-a1e": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogd-3-f-39c"
+      },
       {
         "content": "content---blogcd-2-7dc"
       }
@@ -88,7 +91,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-tags-417-25d"
   },
-  "/blog/tags/azure-b73": {
+  "/blog/tags/azure-8cd": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -96,10 +99,26 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blogd-3-f-39c"
+      },
+      {
         "content": "content---blogcd-2-7dc"
       }
     ],
     "__props": "__props---blog-tags-azure-313-390"
+  },
+  "/blog/tags/certifications-a7b": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-3-f-39c"
+      }
+    ],
+    "__props": "__props---blog-tags-certifications-401-430"
   },
   "/blog/tags/cicd-75b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -113,6 +132,58 @@
       }
     ],
     "__props": "__props---blog-tags-cicd-788-4dc"
+  },
+  "/blog/tags/cybersecurity-19d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-3-f-39c"
+      }
+    ],
+    "__props": "__props---blog-tags-cybersecurity-7-a-5-442"
+  },
+  "/blog/tags/google-0a7": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-3-f-39c"
+      }
+    ],
+    "__props": "__props---blog-tags-googlea-00-044"
+  },
+  "/blog/tags/hack-the-box-6bd": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-3-f-39c"
+      }
+    ],
+    "__props": "__props---blog-tags-hack-the-box-006-6b4"
+  },
+  "/blog/tags/microsoft-887": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-3-f-39c"
+      }
+    ],
+    "__props": "__props---blog-tags-microsoft-3-b-9-487"
   },
   "/blog/tags/react-b8b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -153,17 +224,28 @@
     ],
     "__props": "__props---blog-tags-welcome-850-51b"
   },
+  "/blog/The Journey So Far-7d2": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-site-up-and-runningace-e13"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-2024-08-01-the-journey-so-far-17-e-166"
+  },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---abouta-74-d48"
+      "plugin": "plugin---about-a-74-c06"
     },
     "content": "content---markdown-page-393-028"
   },
   "/nothing-7e4": {
     "__comp": "__comp---site-src-pages-nothing-js-153-cfb",
     "__context": {
-      "plugin": "plugin---abouta-74-d48"
+      "plugin": "plugin---about-a-74-c06"
     },
     "config": "config---nothing-5-e-9-59c"
   },
@@ -195,7 +277,7 @@
   "/-fd5": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---abouta-74-d48"
+      "plugin": "plugin---about-a-74-c06"
     },
     "content": "content---e-7-c-0a5"
   }

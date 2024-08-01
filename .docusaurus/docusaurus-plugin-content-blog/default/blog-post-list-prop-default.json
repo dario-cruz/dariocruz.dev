@@ -2,6 +2,11 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "The Journey So Far",
+      "permalink": "/blog/The Journey So Far",
+      "unlisted": false
+    },
+    {
       "title": "Site Up and Running",
       "permalink": "/blog/Site Up and Running",
       "unlisted": false
