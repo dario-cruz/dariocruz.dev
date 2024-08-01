@@ -38,8 +38,8 @@ export default [
     exact: true
   },
   {
-    path: '/about',
-    component: ComponentCreator('/about', '8b4'),
+    path: '/about/',
+    component: ComponentCreator('/about/', 'fdd'),
     exact: true
   },
   {
