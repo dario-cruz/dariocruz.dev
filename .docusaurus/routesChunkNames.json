@@ -11,12 +11,12 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/content-466": {
+  "/__docusaurus/debug/content-a2b": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "__props": "__props---docusaurus-debug-content-10-f-697"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
   },
   "/__docusaurus/debug/globalData-c3c": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
@@ -49,7 +49,7 @@
     },
     "content": "content---about-f-22-13e"
   },
-  "/blog-a1e": {
+  "/blog-f08": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -63,35 +63,46 @@
         "content": "content---blogcd-2-7dc"
       }
     ],
-    "__props": "__props---blog-53-a-a6e"
+    "__props": "__props---blogc-15-573"
   },
-  "/blog/archive-245": {
+  "/blog/archive-182": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
-    "__props": "__props---blog-archive-250-cf5"
+    "__props": "__props---blog-archivef-81-229"
+  },
+  "/blog/authors-0b7": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authorsef-8-44f"
   },
   "/blog/Site Up and Running-d7d": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-site-up-and-runningace-e13"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-site-up-and-runningdd-1-cd8"
   },
-  "/blog/tags-4c4": {
+  "/blog/tags-287": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-tags-417-25d"
+    "__props": "__props---blog-tags-3-a-2-fa2"
   },
-  "/blog/tags/azure-8cd": {
+  "/blog/tags/azure-2db": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -105,9 +116,9 @@
         "content": "content---blogcd-2-7dc"
       }
     ],
-    "__props": "__props---blog-tags-azure-313-390"
+    "__props": "__props---blog-tags-azure-9-a-6-6c5"
   },
-  "/blog/tags/certifications-a7b": {
+  "/blog/tags/certifications-e71": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -118,9 +129,9 @@
         "content": "content---blogd-3-f-39c"
       }
     ],
-    "__props": "__props---blog-tags-certifications-401-430"
+    "__props": "__props---blog-tags-certificationsa-62-1ab"
   },
-  "/blog/tags/cicd-75b": {
+  "/blog/tags/cicd-392": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -131,9 +142,9 @@
         "content": "content---blogcd-2-7dc"
       }
     ],
-    "__props": "__props---blog-tags-cicd-788-4dc"
+    "__props": "__props---blog-tags-cicddb-5-1e1"
   },
-  "/blog/tags/cybersecurity-19d": {
+  "/blog/tags/cybersecurity-600": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -144,9 +155,9 @@
         "content": "content---blogd-3-f-39c"
       }
     ],
-    "__props": "__props---blog-tags-cybersecurity-7-a-5-442"
+    "__props": "__props---blog-tags-cybersecurityab-3-493"
   },
-  "/blog/tags/google-0a7": {
+  "/blog/tags/google-058": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -157,9 +168,9 @@
         "content": "content---blogd-3-f-39c"
       }
     ],
-    "__props": "__props---blog-tags-googlea-00-044"
+    "__props": "__props---blog-tags-google-820-349"
   },
-  "/blog/tags/hack-the-box-6bd": {
+  "/blog/tags/hack-the-box-e41": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -170,9 +181,9 @@
         "content": "content---blogd-3-f-39c"
       }
     ],
-    "__props": "__props---blog-tags-hack-the-box-006-6b4"
+    "__props": "__props---blog-tags-hack-the-box-9-ba-e4a"
   },
-  "/blog/tags/microsoft-887": {
+  "/blog/tags/microsoft-69f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -183,9 +194,9 @@
         "content": "content---blogd-3-f-39c"
       }
     ],
-    "__props": "__props---blog-tags-microsoft-3-b-9-487"
+    "__props": "__props---blog-tags-microsoftde-8-61d"
   },
-  "/blog/tags/react-b8b": {
+  "/blog/tags/react-ba3": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -196,9 +207,9 @@
         "content": "content---blogcd-2-7dc"
       }
     ],
-    "__props": "__props---blog-tags-react-53-a-043"
+    "__props": "__props---blog-tags-react-8-a-4-89d"
   },
-  "/blog/tags/website-461": {
+  "/blog/tags/website-3b9": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -209,9 +220,9 @@
         "content": "content---blogcd-2-7dc"
       }
     ],
-    "__props": "__props---blog-tags-websiteab-7-337"
+    "__props": "__props---blog-tags-websitea-30-966"
   },
-  "/blog/tags/welcome-5b6": {
+  "/blog/tags/welcome-34c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -222,18 +233,18 @@
         "content": "content---blogcd-2-7dc"
       }
     ],
-    "__props": "__props---blog-tags-welcome-850-51b"
+    "__props": "__props---blog-tags-welcome-436-c4b"
   },
   "/blog/The Journey So Far-7d2": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-site-up-and-runningace-e13"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2024-08-01-the-journey-so-far-17-e-166"
+    "content": "content---blog-the-journey-so-far-17-e-646"
   },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
@@ -249,22 +260,22 @@
     },
     "config": "config---nothing-5-e-9-59c"
   },
-  "/docs-32a": {
+  "/docs-d83": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-0ea": {
+  "/docs-193": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-7-c-1-f86"
+    "__props": "__props---docs-005-788"
   },
-  "/docs-c36": {
+  "/docs-8f3": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/category/javascript-projects-ea2": {
+  "/docs/category/javascript-projects-447": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-javascript-projects-5-af-6ef"
+    "__props": "__props---docs-category-javascript-projects-707-e85"
   },
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",

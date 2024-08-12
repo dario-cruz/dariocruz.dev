@@ -4,12 +4,14 @@
     {
       "title": "The Journey So Far",
       "permalink": "/blog/The Journey So Far",
-      "unlisted": false
+      "unlisted": false,
+      "date": "2024-08-01T00:00:00.000Z"
     },
     {
       "title": "Site Up and Running",
       "permalink": "/blog/Site Up and Running",
-      "unlisted": false
+      "unlisted": false,
+      "date": "2024-05-03T00:00:00.000Z"
     }
   ]
 }

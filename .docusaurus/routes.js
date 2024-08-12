@@ -14,7 +14,7 @@ export default [
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '466'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
@@ -44,12 +44,17 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'a1e'),
+    component: ComponentCreator('/blog', 'f08'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '245'),
+    component: ComponentCreator('/blog/archive', '182'),
+    exact: true
+  },
+  {
+    path: '/blog/authors',
+    component: ComponentCreator('/blog/authors', '0b7'),
     exact: true
   },
   {
@@ -59,57 +64,57 @@ export default [
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '4c4'),
+    component: ComponentCreator('/blog/tags', '287'),
     exact: true
   },
   {
     path: '/blog/tags/azure',
-    component: ComponentCreator('/blog/tags/azure', '8cd'),
+    component: ComponentCreator('/blog/tags/azure', '2db'),
     exact: true
   },
   {
     path: '/blog/tags/certifications',
-    component: ComponentCreator('/blog/tags/certifications', 'a7b'),
+    component: ComponentCreator('/blog/tags/certifications', 'e71'),
     exact: true
   },
   {
     path: '/blog/tags/cicd',
-    component: ComponentCreator('/blog/tags/cicd', '75b'),
+    component: ComponentCreator('/blog/tags/cicd', '392'),
     exact: true
   },
   {
     path: '/blog/tags/cybersecurity',
-    component: ComponentCreator('/blog/tags/cybersecurity', '19d'),
+    component: ComponentCreator('/blog/tags/cybersecurity', '600'),
     exact: true
   },
   {
     path: '/blog/tags/google',
-    component: ComponentCreator('/blog/tags/google', '0a7'),
+    component: ComponentCreator('/blog/tags/google', '058'),
     exact: true
   },
   {
     path: '/blog/tags/hack-the-box',
-    component: ComponentCreator('/blog/tags/hack-the-box', '6bd'),
+    component: ComponentCreator('/blog/tags/hack-the-box', 'e41'),
     exact: true
   },
   {
     path: '/blog/tags/microsoft',
-    component: ComponentCreator('/blog/tags/microsoft', '887'),
+    component: ComponentCreator('/blog/tags/microsoft', '69f'),
     exact: true
   },
   {
     path: '/blog/tags/react',
-    component: ComponentCreator('/blog/tags/react', 'b8b'),
+    component: ComponentCreator('/blog/tags/react', 'ba3'),
     exact: true
   },
   {
     path: '/blog/tags/website',
-    component: ComponentCreator('/blog/tags/website', '461'),
+    component: ComponentCreator('/blog/tags/website', '3b9'),
     exact: true
   },
   {
     path: '/blog/tags/welcome',
-    component: ComponentCreator('/blog/tags/welcome', '5b6'),
+    component: ComponentCreator('/blog/tags/welcome', '34c'),
     exact: true
   },
   {
@@ -129,19 +134,19 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '32a'),
+    component: ComponentCreator('/docs', 'd83'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '0ea'),
+        component: ComponentCreator('/docs', '193'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c36'),
+            component: ComponentCreator('/docs', '8f3'),
             routes: [
               {
                 path: '/docs/category/javascript-projects',
-                component: ComponentCreator('/docs/category/javascript-projects', 'ea2'),
+                component: ComponentCreator('/docs/category/javascript-projects', '447'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
