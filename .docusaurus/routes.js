@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'f08'),
+    component: ComponentCreator('/blog', '209'),
     exact: true
   },
   {
@@ -55,6 +55,11 @@ export default [
   {
     path: '/blog/authors',
     component: ComponentCreator('/blog/authors', '0b7'),
+    exact: true
+  },
+  {
+    path: '/blog/Mastering Identity & Access Management',
+    component: ComponentCreator('/blog/Mastering Identity & Access Management', 'a51'),
     exact: true
   },
   {
@@ -69,7 +74,7 @@ export default [
   },
   {
     path: '/blog/tags/azure',
-    component: ComponentCreator('/blog/tags/azure', '2db'),
+    component: ComponentCreator('/blog/tags/azure', 'b38'),
     exact: true
   },
   {
@@ -84,7 +89,12 @@ export default [
   },
   {
     path: '/blog/tags/cybersecurity',
-    component: ComponentCreator('/blog/tags/cybersecurity', '600'),
+    component: ComponentCreator('/blog/tags/cybersecurity', 'b03'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/entra-id',
+    component: ComponentCreator('/blog/tags/entra-id', 'b1b'),
     exact: true
   },
   {
@@ -98,8 +108,13 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/iam',
+    component: ComponentCreator('/blog/tags/iam', '574'),
+    exact: true
+  },
+  {
     path: '/blog/tags/microsoft',
-    component: ComponentCreator('/blog/tags/microsoft', '69f'),
+    component: ComponentCreator('/blog/tags/microsoft', '82f'),
     exact: true
   },
   {
