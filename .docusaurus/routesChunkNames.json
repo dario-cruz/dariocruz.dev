@@ -116,6 +116,32 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-tags-3-a-2-fa2"
   },
+  "/blog/tags/authentication-9b6": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-3-fa-41b"
+      }
+    ],
+    "__props": "__props---blog-tags-authentication-782-a02"
+  },
+  "/blog/tags/authorization-9e1": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-3-fa-41b"
+      }
+    ],
+    "__props": "__props---blog-tags-authorizationd-29-486"
+  },
   "/blog/tags/azure-b38": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -161,6 +187,19 @@
     ],
     "__props": "__props---blog-tags-cicddb-5-1e1"
   },
+  "/blog/tags/compliance-cfb": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-3-fa-41b"
+      }
+    ],
+    "__props": "__props---blog-tags-compliance-7-d-1-e32"
+  },
   "/blog/tags/cybersecurity-b03": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -203,6 +242,19 @@
     ],
     "__props": "__props---blog-tags-google-820-349"
   },
+  "/blog/tags/governance-7bb": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-3-fa-41b"
+      }
+    ],
+    "__props": "__props---blog-tags-governancec-83-ecf"
+  },
   "/blog/tags/hack-the-box-e41": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -229,6 +281,19 @@
     ],
     "__props": "__props---blog-tags-iam-865-866"
   },
+  "/blog/tags/lifecycle-16f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-3-fa-41b"
+      }
+    ],
+    "__props": "__props---blog-tags-lifecycle-091-d2d"
+  },
   "/blog/tags/microsoft-82f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -244,6 +309,19 @@
       }
     ],
     "__props": "__props---blog-tags-microsoftde-8-61d"
+  },
+  "/blog/tags/monitoring-d25": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-3-fa-41b"
+      }
+    ],
+    "__props": "__props---blog-tags-monitoringf-65-a87"
   },
   "/blog/tags/react-ba3": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",

@@ -73,6 +73,16 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/authentication',
+    component: ComponentCreator('/blog/tags/authentication', '9b6'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/authorization',
+    component: ComponentCreator('/blog/tags/authorization', '9e1'),
+    exact: true
+  },
+  {
     path: '/blog/tags/azure',
     component: ComponentCreator('/blog/tags/azure', 'b38'),
     exact: true
@@ -85,6 +95,11 @@ export default [
   {
     path: '/blog/tags/cicd',
     component: ComponentCreator('/blog/tags/cicd', '392'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/compliance',
+    component: ComponentCreator('/blog/tags/compliance', 'cfb'),
     exact: true
   },
   {
@@ -103,6 +118,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/governance',
+    component: ComponentCreator('/blog/tags/governance', '7bb'),
+    exact: true
+  },
+  {
     path: '/blog/tags/hack-the-box',
     component: ComponentCreator('/blog/tags/hack-the-box', 'e41'),
     exact: true
@@ -113,8 +133,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/lifecycle',
+    component: ComponentCreator('/blog/tags/lifecycle', '16f'),
+    exact: true
+  },
+  {
     path: '/blog/tags/microsoft',
     component: ComponentCreator('/blog/tags/microsoft', '82f'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/monitoring',
+    component: ComponentCreator('/blog/tags/monitoring', 'd25'),
     exact: true
   },
   {
