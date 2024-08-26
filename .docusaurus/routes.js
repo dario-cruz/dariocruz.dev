@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '209'),
+    component: ComponentCreator('/blog', '77d'),
     exact: true
   },
   {
@@ -60,6 +60,11 @@ export default [
   {
     path: '/blog/Mastering Identity & Access Management',
     component: ComponentCreator('/blog/Mastering Identity & Access Management', 'a51'),
+    exact: true
+  },
+  {
+    path: '/blog/Reaper(HTB-Sherlocks)',
+    component: ComponentCreator('/blog/Reaper(HTB-Sherlocks)', '58f'),
     exact: true
   },
   {
@@ -128,8 +133,28 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/hackthebox',
+    component: ComponentCreator('/blog/tags/hackthebox', '022'),
+    exact: true
+  },
+  {
     path: '/blog/tags/iam',
     component: ComponentCreator('/blog/tags/iam', '574'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/incident-investigation',
+    component: ComponentCreator('/blog/tags/incident-investigation', '2bc'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/incident-response',
+    component: ComponentCreator('/blog/tags/incident-response', '6f3'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/labs',
+    component: ComponentCreator('/blog/tags/labs', '14e'),
     exact: true
   },
   {
@@ -145,6 +170,21 @@ export default [
   {
     path: '/blog/tags/monitoring',
     component: ComponentCreator('/blog/tags/monitoring', 'd25'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/net-bios',
+    component: ComponentCreator('/blog/tags/net-bios', '2d3'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/ntlm',
+    component: ComponentCreator('/blog/tags/ntlm', '718'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/pass-the-hash',
+    component: ComponentCreator('/blog/tags/pass-the-hash', '87a'),
     exact: true
   },
   {
