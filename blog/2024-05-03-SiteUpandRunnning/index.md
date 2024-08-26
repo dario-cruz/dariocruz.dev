@@ -11,7 +11,7 @@ tags: [welcome, website, azure, cicd, react]
 Hello all, 👋🏽
 
 My name is Dario and I've been working in the IT Support space for 5 years total. 4 years working for Amazon and 1 year working for The Chefs Warehouse.
-
+<!-- truncate -->
 Over the course of my experience I have had some amazing hands on time with some great technologies. Checkout the projects section for more info on projects that I have worked on.
 
 # Inception of the Site

@@ -63,8 +63,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/Reaper(HTB-Sherlocks)',
-    component: ComponentCreator('/blog/Reaper(HTB-Sherlocks)', '58f'),
+    path: '/blog/Reaper-HTB-Sherlocks',
+    component: ComponentCreator('/blog/Reaper-HTB-Sherlocks', '291'),
     exact: true
   },
   {
