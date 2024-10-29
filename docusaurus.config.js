@@ -71,14 +71,14 @@ const config = {
           src: 'img/dcdev-logo.png',
         },
         items: [
-          {to: '/about', label: 'About', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Projects',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/about', label: 'About', position: 'left'},
           {
             href: 'https://www.linkedin.com/in/dariocru/',
             label: 'LinkedIn',

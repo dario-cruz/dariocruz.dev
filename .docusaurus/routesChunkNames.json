@@ -49,13 +49,16 @@
     },
     "content": "content---about-f-22-13e"
   },
-  "/blog-77d": {
+  "/blog-6d0": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-882-53a"
+      },
       {
         "content": "content---blog-0-e-2-ae4"
       },
@@ -82,7 +85,7 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "blogMetadata---blog-2024-10-29-security-plus-passedace-177"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -93,7 +96,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "blogMetadata---blog-2024-10-29-security-plus-passedace-177"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -104,18 +107,29 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "blogMetadata---blog-2024-10-29-security-plus-passedace-177"
       },
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-reaper-htb-sherlocks-8-b-0-949"
+    "content": "content---blog-reaper-htb-sherlocks-8-b-0-b2f"
+  },
+  "/blog/Security-Plus-Passed-e5d": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-2024-10-29-security-plus-passedace-177"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-2024-10-29-security-plus-passed-9-d-0-19d"
   },
   "/blog/Site Up and Running-d7d": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "blogMetadata---blog-2024-10-29-security-plus-passedace-177"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -175,13 +189,16 @@
     ],
     "__props": "__props---blog-tags-azure-9-a-6-6c5"
   },
-  "/blog/tags/certifications-e71": {
+  "/blog/tags/certifications-555": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-882-53a"
+      },
       {
         "content": "content---blogd-3-f-39c"
       }
@@ -213,6 +230,19 @@
       }
     ],
     "__props": "__props---blog-tags-compliance-7-d-1-e32"
+  },
+  "/blog/tags/comptia-f54": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-882-53a"
+      }
+    ],
+    "__props": "__props---blog-tags-comptiaf-6-d-320"
   },
   "/blog/tags/cybersecurity-b03": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -441,6 +471,19 @@
     ],
     "__props": "__props---blog-tags-react-8-a-4-89d"
   },
+  "/blog/tags/security-plus-41f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-882-53a"
+      }
+    ],
+    "__props": "__props---blog-tags-security-plusf-5-e-156"
+  },
   "/blog/tags/website-3b9": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -471,7 +514,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "blogMetadata---blog-2024-10-29-security-plus-passedace-177"
       },
       "plugin": "plugin---blog-369-22e"
     },

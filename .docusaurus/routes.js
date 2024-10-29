@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '77d'),
+    component: ComponentCreator('/blog', '6d0'),
     exact: true
   },
   {
@@ -65,6 +65,11 @@ export default [
   {
     path: '/blog/Reaper-HTB-Sherlocks',
     component: ComponentCreator('/blog/Reaper-HTB-Sherlocks', '291'),
+    exact: true
+  },
+  {
+    path: '/blog/Security-Plus-Passed',
+    component: ComponentCreator('/blog/Security-Plus-Passed', 'e5d'),
     exact: true
   },
   {
@@ -94,7 +99,7 @@ export default [
   },
   {
     path: '/blog/tags/certifications',
-    component: ComponentCreator('/blog/tags/certifications', 'e71'),
+    component: ComponentCreator('/blog/tags/certifications', '555'),
     exact: true
   },
   {
@@ -105,6 +110,11 @@ export default [
   {
     path: '/blog/tags/compliance',
     component: ComponentCreator('/blog/tags/compliance', 'cfb'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/comptia',
+    component: ComponentCreator('/blog/tags/comptia', 'f54'),
     exact: true
   },
   {
@@ -190,6 +200,11 @@ export default [
   {
     path: '/blog/tags/react',
     component: ComponentCreator('/blog/tags/react', 'ba3'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/security-plus',
+    component: ComponentCreator('/blog/tags/security-plus', '41f'),
     exact: true
   },
   {

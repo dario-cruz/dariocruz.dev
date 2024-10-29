@@ -15,10 +15,12 @@ Okay so I just discovered Hack The Box Sherlocks, they are Blue Team focused lab
 
 So, I am on the page and ready to start. I proceeded to read through the scenario, which reads as follows: 
 
-> Our SIEM alerted us to a suspicious logon event which needs to be looked at immediately . The alert details were that the IP Address and the Source Workstation name were a mismatch .You are provided a network capture and event logs from the surrounding time around the incident timeframe. Corelate the given evidence and report back to your SOC Manager.
+> Our SIEM alerted us to a suspicious logon event which needs to be looked at immediately . The alert details were that the IP Address and the Source Workstfation name were a mismatch .You are provided a network capture and event logs from the surrounding time around the incident timeframe. Corelate the given evidence and report back to your SOC Manager.
 
-Then I downloaded the files for the lab and took a look at them. Here is what they look like: 
+Then I downloaded the files for the lab and took a look at them. Here is what they look like:
+
 ![](img/f3e9a82f7ba8eaa466cb4e55a410d4ea.png)
+
 Okay so we have a `.evtx` file which is most likely a Windows Log file and also a `.pcapng` file that is a network capture of the event. 
 
 Before I proceeded I was asking myself if I needed to spin up a Windows VM or this as the computer that I am using is running Ubuntu Linux. Also, during the Windows Event Log: Finding Evil module for the HTB CDSA, all `.etvw` files where opened using Windows tools like the Event Viewer, SilkETW, and the PowerShell cmd-let `get-winevent`. Now I know there are most likely tools for viewing of these logs on Linux but, for posterity I will use the tools I learned about. Guess it's time to spin up that Windows VM. 
@@ -30,7 +32,8 @@ installed Gnome Boxes as I heard it was the most minimal type 2 hypervisor for D
 
 Okay, so the first question is asking us for the IP address of the computer hostname **Forela-Wkstn001** so most likely we will be looking at the pcap file as that contains all of the network monitoring logs, which contain details of connections to and from the network, protocols used, IP addresses, MAC addresses etc. 
 
-Okay so with the pcap file open in WireShark and scrolling through without any filtering I can already see a log form the computer mentioned in the task info. Looks like the NetBios service running on our target machine was attempting to update information of some sort and we can clearly see the source IP address, which is `172.17.79.129`. 
+Okay so with the pcap file open in WireShark and scrolling through without any filtering I can already see a log form the computer mentioned in the task info. Looks like the NetBios service running on our target machine was attempting to update information of some sort and we can clearly see the source IP address, which is `172.17.79.129`.
+
 ![](img/2baa86df0ec002574a78804623f296bf.png)
 
 ### What is NetBios?
@@ -47,10 +50,13 @@ And yet again we have more NetBios communication and the revealing of the source
 
 Task 3 is to figure out which account had its' hash stolen. Wondering if this could be related to the old NetBios protocol being used. If we look at the logs provided and filter for Windows Logon events, Event Code: `4624`, the last 3 entries look very suspicious.
 ![](img/5628302ed4d6d7911eb68b13d7dc8a4b.png)
-Now if we take a look at the event we can see what looks to be a malicious logon. How do we know it was malicious though? Well, we can see that the **Security ID, Account Name, Account Domain, and Logon ID** all look to be invalid values. Scrolling down further, we can see more indicators of compromise. 
+Now if we take a look at the event we can see what looks to be a malicious logon. How do we know it was malicious though? Well, we can see that the **Security ID, Account Name, Account Domain, and Logon ID** all look to be invalid values. Scrolling down further, we can see more indicators of compromise.
+
 ![](img/b8cec1843f18c156611acf8605e7745d.png)
+
 Above we can see that a new user was logged on to, `aurthur.kyle` from the Domain `FORELA`. This is the first instance of this user logging on in the logs. 
 Also NTLM was used for the logon as you can see from the next image. 
+
 ![](img/5ada28e45a3ca240117786bdd5453fc2.png)
 
 ### What is NTLM

@@ -52,8 +52,8 @@ export default {
       },
       "items": [
         {
-          "to": "/about",
-          "label": "About",
+          "to": "/blog",
+          "label": "Blog",
           "position": "left"
         },
         {
@@ -63,8 +63,8 @@ export default {
           "label": "Projects"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
+          "to": "/about",
+          "label": "About",
           "position": "left"
         },
         {

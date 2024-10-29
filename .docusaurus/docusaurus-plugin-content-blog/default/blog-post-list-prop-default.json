@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Security+ Passed!",
+      "permalink": "/blog/Security-Plus-Passed",
+      "unlisted": false,
+      "date": "2024-10-29T00:00:00.000Z"
+    },
+    {
       "title": "Reaper(HTB-Sherlocks)",
       "permalink": "/blog/Reaper-HTB-Sherlocks",
       "unlisted": false,
