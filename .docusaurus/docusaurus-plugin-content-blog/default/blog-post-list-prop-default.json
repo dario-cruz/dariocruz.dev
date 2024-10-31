@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Noxious (HTB-Sherlocks)",
+      "permalink": "/blog/Noxious-HTB-Sherlocks",
+      "unlisted": false,
+      "date": "2024-10-31T00:00:00.000Z"
+    },
+    {
       "title": "Security+ Passed!",
       "permalink": "/blog/Security-Plus-Passed",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/blog/Mastering Identity & Access Management",
       "unlisted": false,
       "date": "2024-07-07T00:00:00.000Z"
-    },
-    {
-      "title": "Site Up and Running",
-      "permalink": "/blog/Site Up and Running",
-      "unlisted": false,
-      "date": "2024-05-03T00:00:00.000Z"
     }
   ]
 }

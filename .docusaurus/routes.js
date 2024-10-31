@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '6d0'),
+    component: ComponentCreator('/blog', 'cf9'),
     exact: true
   },
   {
@@ -60,6 +60,11 @@ export default [
   {
     path: '/blog/Mastering Identity & Access Management',
     component: ComponentCreator('/blog/Mastering Identity & Access Management', 'a51'),
+    exact: true
+  },
+  {
+    path: '/blog/Noxious-HTB-Sherlocks',
+    component: ComponentCreator('/blog/Noxious-HTB-Sherlocks', '5fd'),
     exact: true
   },
   {
@@ -144,7 +149,12 @@ export default [
   },
   {
     path: '/blog/tags/hackthebox',
-    component: ComponentCreator('/blog/tags/hackthebox', '022'),
+    component: ComponentCreator('/blog/tags/hackthebox', '119'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hash-cat',
+    component: ComponentCreator('/blog/tags/hash-cat', '510'),
     exact: true
   },
   {
@@ -159,17 +169,22 @@ export default [
   },
   {
     path: '/blog/tags/incident-response',
-    component: ComponentCreator('/blog/tags/incident-response', '6f3'),
+    component: ComponentCreator('/blog/tags/incident-response', '614'),
     exact: true
   },
   {
     path: '/blog/tags/labs',
-    component: ComponentCreator('/blog/tags/labs', '14e'),
+    component: ComponentCreator('/blog/tags/labs', '679'),
     exact: true
   },
   {
     path: '/blog/tags/lifecycle',
     component: ComponentCreator('/blog/tags/lifecycle', '16f'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/llmnr',
+    component: ComponentCreator('/blog/tags/llmnr', 'dec'),
     exact: true
   },
   {
@@ -189,7 +204,12 @@ export default [
   },
   {
     path: '/blog/tags/ntlm',
-    component: ComponentCreator('/blog/tags/ntlm', '718'),
+    component: ComponentCreator('/blog/tags/ntlm', '465'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/offline-brute-force',
+    component: ComponentCreator('/blog/tags/offline-brute-force', '26c'),
     exact: true
   },
   {
