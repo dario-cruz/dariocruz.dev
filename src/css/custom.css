@@ -50,3 +50,8 @@
 .navbar{
   --ifm-navbar-background-color: rgb(0,0,0);
 }
+
+/* Change all bold text color */
+.text--bold {
+  color: purple;
+}

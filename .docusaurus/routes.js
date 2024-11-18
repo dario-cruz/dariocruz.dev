@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'cf9'),
+    component: ComponentCreator('/blog', '992'),
     exact: true
   },
   {
@@ -70,6 +70,11 @@ export default [
   {
     path: '/blog/Reaper-HTB-Sherlocks',
     component: ComponentCreator('/blog/Reaper-HTB-Sherlocks', '291'),
+    exact: true
+  },
+  {
+    path: '/blog/RogueOne-HTB-Sherlocks',
+    component: ComponentCreator('/blog/RogueOne-HTB-Sherlocks', 'ab3'),
     exact: true
   },
   {
@@ -149,12 +154,17 @@ export default [
   },
   {
     path: '/blog/tags/hackthebox',
-    component: ComponentCreator('/blog/tags/hackthebox', '119'),
+    component: ComponentCreator('/blog/tags/hackthebox', '793'),
     exact: true
   },
   {
     path: '/blog/tags/hash-cat',
     component: ComponentCreator('/blog/tags/hash-cat', '510'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hashing',
+    component: ComponentCreator('/blog/tags/hashing', 'c81'),
     exact: true
   },
   {
@@ -169,12 +179,12 @@ export default [
   },
   {
     path: '/blog/tags/incident-response',
-    component: ComponentCreator('/blog/tags/incident-response', '614'),
+    component: ComponentCreator('/blog/tags/incident-response', '4b8'),
     exact: true
   },
   {
     path: '/blog/tags/labs',
-    component: ComponentCreator('/blog/tags/labs', '679'),
+    component: ComponentCreator('/blog/tags/labs', 'ba2'),
     exact: true
   },
   {
@@ -185,6 +195,11 @@ export default [
   {
     path: '/blog/tags/llmnr',
     component: ComponentCreator('/blog/tags/llmnr', 'dec'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/memory-forensics',
+    component: ComponentCreator('/blog/tags/memory-forensics', '717'),
     exact: true
   },
   {
@@ -218,6 +233,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/python',
+    component: ComponentCreator('/blog/tags/python', '05d'),
+    exact: true
+  },
+  {
     path: '/blog/tags/react',
     component: ComponentCreator('/blog/tags/react', 'ba3'),
     exact: true
@@ -225,6 +245,16 @@ export default [
   {
     path: '/blog/tags/security-plus',
     component: ComponentCreator('/blog/tags/security-plus', '41f'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/virustotal',
+    component: ComponentCreator('/blog/tags/virustotal', '57e'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/volatility',
+    component: ComponentCreator('/blog/tags/volatility', '94e'),
     exact: true
   },
   {

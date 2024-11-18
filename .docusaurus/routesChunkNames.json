@@ -49,13 +49,16 @@
     },
     "content": "content---about-f-22-13e"
   },
-  "/blog-cf9": {
+  "/blog-992": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-15-f-667"
+      },
       {
         "content": "content---blogd-45-981"
       },
@@ -127,6 +130,17 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-reaper-htb-sherlocks-8-b-0-b2f"
+  },
+  "/blog/RogueOne-HTB-Sherlocks-ab3": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-rogue-one-htb-sherlocks-830-0e8"
   },
   "/blog/Security-Plus-Passed-e5d": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -326,13 +340,16 @@
     ],
     "__props": "__props---blog-tags-hack-the-box-9-ba-e4a"
   },
-  "/blog/tags/hackthebox-119": {
+  "/blog/tags/hackthebox-793": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-15-f-667"
+      },
       {
         "content": "content---blogd-45-981"
       },
@@ -354,6 +371,19 @@
       }
     ],
     "__props": "__props---blog-tags-hash-cat-2-fa-a33"
+  },
+  "/blog/tags/hashing-c81": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-15-f-667"
+      }
+    ],
+    "__props": "__props---blog-tags-hashing-25-c-f21"
   },
   "/blog/tags/iam-574": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -381,13 +411,16 @@
     ],
     "__props": "__props---blog-tags-incident-investigationa-0-b-c70"
   },
-  "/blog/tags/incident-response-614": {
+  "/blog/tags/incident-response-4b8": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-15-f-667"
+      },
       {
         "content": "content---blogd-45-981"
       },
@@ -397,13 +430,16 @@
     ],
     "__props": "__props---blog-tags-incident-response-4-b-2-c11"
   },
-  "/blog/tags/labs-679": {
+  "/blog/tags/labs-ba2": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-15-f-667"
+      },
       {
         "content": "content---blogd-45-981"
       },
@@ -438,6 +474,19 @@
       }
     ],
     "__props": "__props---blog-tags-llmnree-0-131"
+  },
+  "/blog/tags/memory-forensics-717": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-15-f-667"
+      }
+    ],
+    "__props": "__props---blog-tags-memory-forensicsda-7-57f"
   },
   "/blog/tags/microsoft-82f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -523,6 +572,19 @@
     ],
     "__props": "__props---blog-tags-pass-the-hashdc-1-3ed"
   },
+  "/blog/tags/python-05d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-15-f-667"
+      }
+    ],
+    "__props": "__props---blog-tags-pythonae-3-319"
+  },
   "/blog/tags/react-ba3": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -548,6 +610,32 @@
       }
     ],
     "__props": "__props---blog-tags-security-plusf-5-e-156"
+  },
+  "/blog/tags/virustotal-57e": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-15-f-667"
+      }
+    ],
+    "__props": "__props---blog-tags-virustotale-57-572"
+  },
+  "/blog/tags/volatility-94e": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-15-f-667"
+      }
+    ],
+    "__props": "__props---blog-tags-volatilityc-75-a5c"
   },
   "/blog/tags/website-3b9": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",

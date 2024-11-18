@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "RogueOne (HTB-Sherlocks)",
+      "permalink": "/blog/RogueOne-HTB-Sherlocks",
+      "unlisted": false,
+      "date": "2024-11-18T00:00:00.000Z"
+    },
+    {
       "title": "Noxious (HTB-Sherlocks)",
       "permalink": "/blog/Noxious-HTB-Sherlocks",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/blog/The Journey So Far",
       "unlisted": false,
       "date": "2024-08-01T00:00:00.000Z"
-    },
-    {
-      "title": "Mastering Identity & Access Management",
-      "permalink": "/blog/Mastering Identity & Access Management",
-      "unlisted": false,
-      "date": "2024-07-07T00:00:00.000Z"
     }
   ]
 }

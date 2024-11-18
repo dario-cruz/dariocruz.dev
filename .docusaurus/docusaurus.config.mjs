@@ -37,6 +37,7 @@ export default {
       }
     ]
   ],
+  "plugins": [],
   "themeConfig": {
     "colorMode": {
       "defaultMode": "dark",
@@ -316,7 +317,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
