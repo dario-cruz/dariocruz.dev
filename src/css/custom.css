@@ -52,6 +52,10 @@
 }
 
 /* Change all bold text color */
-.text--bold {
-  color: purple;
+em {
+  color: rgb(231, 229, 120);
+}
+
+strong {
+  color: rgb(255, 59, 59);
 }
