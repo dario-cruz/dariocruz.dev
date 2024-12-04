@@ -51,11 +51,13 @@
   --ifm-navbar-background-color: rgb(0,0,0);
 }
 
-/* Change all bold text color */
+/* Change all bold & italic text color */
 em {
   color: rgb(231, 229, 120);
 }
-
 strong {
   color: rgb(255, 59, 59);
+}
+img {
+  border-radius: 10px;
 }
