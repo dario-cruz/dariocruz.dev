@@ -53,10 +53,10 @@
 
 /* Change all bold & italic text color */
 em {
-  color: rgb(231, 229, 120);
+  color: #c9e3ac;
 }
 strong {
-  color: rgb(255, 59, 59);
+  color: #eaefbd;
 }
 img {
   border-radius: 10px;
