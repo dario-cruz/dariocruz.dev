@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '992'),
+    component: ComponentCreator('/blog', '24a'),
     exact: true
   },
   {
@@ -55,6 +55,11 @@ export default [
   {
     path: '/blog/authors',
     component: ComponentCreator('/blog/authors', '0b7'),
+    exact: true
+  },
+  {
+    path: '/blog/Kerberoasting-Explained',
+    component: ComponentCreator('/blog/Kerberoasting-Explained', 'd95'),
     exact: true
   },
   {
@@ -90,6 +95,11 @@ export default [
   {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', '287'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/active-directory',
+    component: ComponentCreator('/blog/tags/active-directory', '050'),
     exact: true
   },
   {
@@ -163,6 +173,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/hashcat',
+    component: ComponentCreator('/blog/tags/hashcat', '393'),
+    exact: true
+  },
+  {
     path: '/blog/tags/hashing',
     component: ComponentCreator('/blog/tags/hashing', 'c81'),
     exact: true
@@ -180,6 +195,16 @@ export default [
   {
     path: '/blog/tags/incident-response',
     component: ComponentCreator('/blog/tags/incident-response', '4b8'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/kerberoasting',
+    component: ComponentCreator('/blog/tags/kerberoasting', '546'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/kerberos',
+    component: ComponentCreator('/blog/tags/kerberos', '3c3'),
     exact: true
   },
   {
@@ -240,6 +265,11 @@ export default [
   {
     path: '/blog/tags/react',
     component: ComponentCreator('/blog/tags/react', 'ba3'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/rubeus',
+    component: ComponentCreator('/blog/tags/rubeus', 'bb3'),
     exact: true
   },
   {

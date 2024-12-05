@@ -49,13 +49,16 @@
     },
     "content": "content---about-f-22-13e"
   },
-  "/blog-992": {
+  "/blog-24a": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-542-e72"
+      },
       {
         "content": "content---blog-15-f-667"
       },
@@ -97,6 +100,17 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-authorsef-8-44f"
+  },
+  "/blog/Kerberoasting-Explained-d95": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-kerberoasting-explained-730-f9f"
   },
   "/blog/Mastering Identity & Access Management-a51": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -171,6 +185,19 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-tags-3-a-2-fa2"
+  },
+  "/blog/tags/active-directory-050": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-542-e72"
+      }
+    ],
+    "__props": "__props---blog-tags-active-directorye-44-0a4"
   },
   "/blog/tags/authentication-9b6": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -372,6 +399,19 @@
     ],
     "__props": "__props---blog-tags-hash-cat-2-fa-a33"
   },
+  "/blog/tags/hashcat-393": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-542-e72"
+      }
+    ],
+    "__props": "__props---blog-tags-hashcatfa-5-1e3"
+  },
   "/blog/tags/hashing-c81": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -429,6 +469,32 @@
       }
     ],
     "__props": "__props---blog-tags-incident-response-4-b-2-c11"
+  },
+  "/blog/tags/kerberoasting-546": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-542-e72"
+      }
+    ],
+    "__props": "__props---blog-tags-kerberoasting-44-d-c74"
+  },
+  "/blog/tags/kerberos-3c3": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-542-e72"
+      }
+    ],
+    "__props": "__props---blog-tags-kerberosfb-6-48c"
   },
   "/blog/tags/labs-ba2": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -597,6 +663,19 @@
       }
     ],
     "__props": "__props---blog-tags-react-8-a-4-89d"
+  },
+  "/blog/tags/rubeus-bb3": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-542-e72"
+      }
+    ],
+    "__props": "__props---blog-tags-rubeusef-3-8c7"
   },
   "/blog/tags/security-plus-41f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
