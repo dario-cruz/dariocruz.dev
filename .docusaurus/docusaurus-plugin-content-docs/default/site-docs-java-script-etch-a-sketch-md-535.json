@@ -10,8 +10,9 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
+  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_positoin": 1
+    "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {

@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+slug: /
+description: Introduction to Projects - DarioCruz.dev
 ---
 
 # Projects

@@ -11,18 +11,13 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "HomeLab/Building The Home Lab",
+              "path": "/docs/HomeLab/Building The Home Lab",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "JavaScript/etch-a-sketch",
-              "path": "/docs/JavaScript/etch-a-sketch",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/javascript-projects",
-              "path": "/docs/category/javascript-projects",
+              "path": "/docs/",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -30,7 +25,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/docs/",
                 "label": "intro"
               }
             }

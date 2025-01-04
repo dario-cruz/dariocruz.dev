@@ -314,31 +314,25 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd83'),
+    component: ComponentCreator('/docs', '9bb'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '193'),
+        component: ComponentCreator('/docs', 'a20'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '8f3'),
+            component: ComponentCreator('/docs', 'b0d'),
             routes: [
               {
-                path: '/docs/category/javascript-projects',
-                component: ComponentCreator('/docs/category/javascript-projects', '447'),
+                path: '/docs/',
+                component: ComponentCreator('/docs/', 'e94'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/JavaScript/etch-a-sketch',
-                component: ComponentCreator('/docs/JavaScript/etch-a-sketch', 'c3f'),
+                path: '/docs/HomeLab/Building The Home Lab',
+                component: ComponentCreator('/docs/HomeLab/Building The Home Lab', 'a04'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
