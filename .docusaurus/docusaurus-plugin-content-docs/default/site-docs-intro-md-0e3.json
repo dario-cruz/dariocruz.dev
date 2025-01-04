@@ -1,7 +1,7 @@
 {
   "id": "intro",
   "title": "Projects",
-  "description": "Welcome, if you have found this page then you are interested in seeing some of the work that I do in my day to day as an IT Professional.",
+  "description": "Welcome! This page showcases my journey in cybersecurity, featuring projects that have enhanced my skills and knowledge in the field.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

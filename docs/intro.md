@@ -4,12 +4,12 @@ sidebar_position: 1
 
 # Projects
 
-Welcome, if you have found this page then you are interested in seeing some of the work that I do in my day to day as an IT Professional.
+Welcome! This page showcases my journey in breaking into **Cybersecurity**, featuring projects that have enhanced my skills and knowledge in the field.
 
-# Sidebar
+## Explore My Work
 
-Check out the sidebar on the left for all of the project types. You can also check the navigation buttons at the bottom of this page to navigate to the first category in the list. 
+Use the sidebar on the left to navigate through various project categories, each reflecting a unique aspect of my cybersecurity endeavors.
 
-# Contact info
+## Let's Connect
 
-If you would like to contact me to ask a question about on of the projects that I've worked on or to reach out to me with opportunities you can email me at dario@dariocruz.dev
+If you have questions about my projects or wish to discuss potential opportunities, feel free to reach out at [dario@dariocruz.dev](mailto:dario@dariocruz.dev).

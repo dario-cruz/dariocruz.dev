@@ -78,7 +78,7 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2024 DarioCruz.dev. Built with Docusaurus.",
+      "copyright": "Copyright © 2025 DarioCruz.dev. Built with Docusaurus.",
       "links": []
     },
     "prism": {
