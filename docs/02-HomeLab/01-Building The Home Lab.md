@@ -20,7 +20,7 @@ Here are the computers all racked up nice and tidy. I even installed a small pat
 
 ## Zimaboard Firewall
 
-Proxmox and other bare metal hypervisor software have the ability to carry out SDN Wan to manage a virtualized network for all logical hosts. While this a convenient implementation to have, I would like to achieve a more real world configuration via the use of the PFsense firewall OS, provided and maintained by NetGate. The hardware that I am using for the firewall is a 1st generation [[Zimaboard]].
+Proxmox and other bare metal hypervisor software have the ability to carry out SDN Wan to manage a virtualized network for all logical hosts. While this a convenient implementation to have, I would like to achieve a more real world configuration via the use of the PFsense firewall OS, provided and maintained by NetGate. The hardware that I am using for the firewall is a 1st generation [Zimaboard](https://shop.zimaboard.com/).
 
 ### Installing PFSense
 

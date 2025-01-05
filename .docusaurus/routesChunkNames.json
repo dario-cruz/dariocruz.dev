@@ -1,798 +1,755 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/about/-fdd": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---about-a-74-c06"
+      "plugin": "a7456010"
     },
-    "content": "content---about-f-22-13e"
+    "content": "f22fea79"
   },
   "/blog-24a": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-542-e72"
+        "content": "54231e39"
       },
       {
-        "content": "content---blog-15-f-667"
+        "content": "15fcb8cd"
       },
       {
-        "content": "content---blogd-45-981"
+        "content": "d453560c"
       },
       {
-        "content": "content---blog-882-53a"
+        "content": "88210ce3"
       },
       {
-        "content": "content---blog-0-e-2-ae4"
+        "content": "0e244196"
       },
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "d3fcb251"
       },
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       },
       {
-        "content": "content---blogcd-2-7dc"
+        "content": "cd2a0970"
       }
     ],
-    "__props": "__props---blogc-15-573"
+    "__props": "c15d9823"
   },
   "/blog/archive-182": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "__props": "__props---blog-archivef-81-229"
+    "__props": "f81c1134"
   },
   "/blog/authors-0b7": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__comp": "621db11d",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authorsef-8-44f"
+    "sidebar": "814f3328",
+    "__props": "ef8b811a"
   },
   "/blog/Kerberoasting-Explained-d95": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-kerberoasting-explained-730-f9f"
+    "sidebar": "814f3328",
+    "content": "730beb4b"
   },
   "/blog/Mastering Identity & Access Management-a51": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-mastering-identity-access-managemente-11-a92"
+    "sidebar": "814f3328",
+    "content": "e112503f"
   },
   "/blog/Noxious-HTB-Sherlocks-5fd": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-noxious-htb-sherlocksb-88-928"
+    "sidebar": "814f3328",
+    "content": "b888bd8c"
   },
   "/blog/Reaper-HTB-Sherlocks-291": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-reaper-htb-sherlocks-8-b-0-b2f"
+    "sidebar": "814f3328",
+    "content": "8b0fff31"
   },
   "/blog/RogueOne-HTB-Sherlocks-ab3": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-rogue-one-htb-sherlocks-830-0e8"
+    "sidebar": "814f3328",
+    "content": "830d4b7a"
   },
   "/blog/Security-Plus-Passed-e5d": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-security-plus-passed-9-d-0-f17"
+    "sidebar": "814f3328",
+    "content": "9d069841"
   },
   "/blog/Site Up and Running-d7d": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-site-up-and-runningdd-1-cd8"
+    "sidebar": "814f3328",
+    "content": "dd123593"
   },
   "/blog/tags-287": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-tags-3-a-2-fa2"
+    "sidebar": "814f3328",
+    "__props": "3a2db09e"
   },
   "/blog/tags/active-directory-050": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-542-e72"
+        "content": "54231e39"
       }
     ],
-    "__props": "__props---blog-tags-active-directorye-44-0a4"
+    "__props": "e440a88e"
   },
   "/blog/tags/authentication-9b6": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       }
     ],
-    "__props": "__props---blog-tags-authentication-782-a02"
+    "__props": "782e1f96"
   },
   "/blog/tags/authorization-9e1": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       }
     ],
-    "__props": "__props---blog-tags-authorizationd-29-486"
+    "__props": "d29fd834"
   },
   "/blog/tags/azure-b38": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "d3fcb251"
       },
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       },
       {
-        "content": "content---blogcd-2-7dc"
+        "content": "cd2a0970"
       }
     ],
-    "__props": "__props---blog-tags-azure-9-a-6-6c5"
+    "__props": "9a6c65a0"
   },
   "/blog/tags/certifications-555": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-882-53a"
+        "content": "88210ce3"
       },
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "d3fcb251"
       }
     ],
-    "__props": "__props---blog-tags-certificationsa-62-1ab"
+    "__props": "a62136bc"
   },
   "/blog/tags/cicd-392": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogcd-2-7dc"
+        "content": "cd2a0970"
       }
     ],
-    "__props": "__props---blog-tags-cicddb-5-1e1"
+    "__props": "db5fb1c4"
   },
   "/blog/tags/compliance-cfb": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       }
     ],
-    "__props": "__props---blog-tags-compliance-7-d-1-e32"
+    "__props": "7d1568a5"
   },
   "/blog/tags/comptia-f54": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-882-53a"
+        "content": "88210ce3"
       }
     ],
-    "__props": "__props---blog-tags-comptiaf-6-d-320"
+    "__props": "f6d5bf13"
   },
   "/blog/tags/cybersecurity-b03": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "d3fcb251"
       },
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       }
     ],
-    "__props": "__props---blog-tags-cybersecurityab-3-493"
+    "__props": "ab39b05c"
   },
   "/blog/tags/entra-id-b1b": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       }
     ],
-    "__props": "__props---blog-tags-entra-idc-4-a-4bb"
+    "__props": "c4abcb6e"
   },
   "/blog/tags/google-058": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "d3fcb251"
       }
     ],
-    "__props": "__props---blog-tags-google-820-349"
+    "__props": "820def57"
   },
   "/blog/tags/governance-7bb": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       }
     ],
-    "__props": "__props---blog-tags-governancec-83-ecf"
+    "__props": "c835310f"
   },
   "/blog/tags/hack-the-box-e41": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "d3fcb251"
       }
     ],
-    "__props": "__props---blog-tags-hack-the-box-9-ba-e4a"
+    "__props": "9ba38661"
   },
   "/blog/tags/hackthebox-793": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-15-f-667"
+        "content": "15fcb8cd"
       },
       {
-        "content": "content---blogd-45-981"
+        "content": "d453560c"
       },
       {
-        "content": "content---blog-0-e-2-ae4"
+        "content": "0e244196"
       }
     ],
-    "__props": "__props---blog-tags-hacktheboxf-81-90e"
+    "__props": "f81d3bc2"
   },
   "/blog/tags/hash-cat-510": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-45-981"
+        "content": "d453560c"
       }
     ],
-    "__props": "__props---blog-tags-hash-cat-2-fa-a33"
+    "__props": "2fa88710"
   },
   "/blog/tags/hashcat-393": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-542-e72"
+        "content": "54231e39"
       }
     ],
-    "__props": "__props---blog-tags-hashcatfa-5-1e3"
+    "__props": "fa56b51f"
   },
   "/blog/tags/hashing-c81": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-15-f-667"
+        "content": "15fcb8cd"
       }
     ],
-    "__props": "__props---blog-tags-hashing-25-c-f21"
+    "__props": "25c7a468"
   },
   "/blog/tags/iam-574": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       }
     ],
-    "__props": "__props---blog-tags-iam-865-866"
+    "__props": "865f9f4f"
   },
   "/blog/tags/incident-investigation-2bc": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-0-e-2-ae4"
+        "content": "0e244196"
       }
     ],
-    "__props": "__props---blog-tags-incident-investigationa-0-b-c70"
+    "__props": "a0b559cb"
   },
   "/blog/tags/incident-response-4b8": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-15-f-667"
+        "content": "15fcb8cd"
       },
       {
-        "content": "content---blogd-45-981"
+        "content": "d453560c"
       },
       {
-        "content": "content---blog-0-e-2-ae4"
+        "content": "0e244196"
       }
     ],
-    "__props": "__props---blog-tags-incident-response-4-b-2-c11"
+    "__props": "4b2dab17"
   },
   "/blog/tags/kerberoasting-546": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-542-e72"
+        "content": "54231e39"
       }
     ],
-    "__props": "__props---blog-tags-kerberoasting-44-d-c74"
+    "__props": "44d0b06e"
   },
   "/blog/tags/kerberos-3c3": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-542-e72"
+        "content": "54231e39"
       }
     ],
-    "__props": "__props---blog-tags-kerberosfb-6-48c"
+    "__props": "fb6d3597"
   },
   "/blog/tags/labs-ba2": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-15-f-667"
+        "content": "15fcb8cd"
       },
       {
-        "content": "content---blogd-45-981"
+        "content": "d453560c"
       },
       {
-        "content": "content---blog-0-e-2-ae4"
+        "content": "0e244196"
       }
     ],
-    "__props": "__props---blog-tags-labs-5-dc-90b"
+    "__props": "5dc70f42"
   },
   "/blog/tags/lifecycle-16f": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       }
     ],
-    "__props": "__props---blog-tags-lifecycle-091-d2d"
+    "__props": "091bb29b"
   },
   "/blog/tags/llmnr-dec": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-45-981"
+        "content": "d453560c"
       }
     ],
-    "__props": "__props---blog-tags-llmnree-0-131"
+    "__props": "ee08a6d9"
   },
   "/blog/tags/memory-forensics-717": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-15-f-667"
+        "content": "15fcb8cd"
       }
     ],
-    "__props": "__props---blog-tags-memory-forensicsda-7-57f"
+    "__props": "da7cde74"
   },
   "/blog/tags/microsoft-82f": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "d3fcb251"
       },
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       }
     ],
-    "__props": "__props---blog-tags-microsoftde-8-61d"
+    "__props": "de897924"
   },
   "/blog/tags/monitoring-d25": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "3faf6b33"
       }
     ],
-    "__props": "__props---blog-tags-monitoringf-65-a87"
+    "__props": "f65a472a"
   },
   "/blog/tags/net-bios-2d3": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-0-e-2-ae4"
+        "content": "0e244196"
       }
     ],
-    "__props": "__props---blog-tags-net-bios-05-a-09b"
+    "__props": "05a239a2"
   },
   "/blog/tags/ntlm-465": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-45-981"
+        "content": "d453560c"
       },
       {
-        "content": "content---blog-0-e-2-ae4"
+        "content": "0e244196"
       }
     ],
-    "__props": "__props---blog-tags-ntlm-14-d-b8b"
+    "__props": "14d1b3b8"
   },
   "/blog/tags/offline-brute-force-26c": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogd-45-981"
+        "content": "d453560c"
       }
     ],
-    "__props": "__props---blog-tags-offline-brute-forcefff-ca0"
+    "__props": "fff05958"
   },
   "/blog/tags/pass-the-hash-87a": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-0-e-2-ae4"
+        "content": "0e244196"
       }
     ],
-    "__props": "__props---blog-tags-pass-the-hashdc-1-3ed"
+    "__props": "dc1a64d1"
   },
   "/blog/tags/python-05d": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-15-f-667"
+        "content": "15fcb8cd"
       }
     ],
-    "__props": "__props---blog-tags-pythonae-3-319"
+    "__props": "ae3304ee"
   },
   "/blog/tags/react-ba3": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogcd-2-7dc"
+        "content": "cd2a0970"
       }
     ],
-    "__props": "__props---blog-tags-react-8-a-4-89d"
+    "__props": "8a4fae67"
   },
   "/blog/tags/rubeus-bb3": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-542-e72"
+        "content": "54231e39"
       }
     ],
-    "__props": "__props---blog-tags-rubeusef-3-8c7"
+    "__props": "ef3be242"
   },
   "/blog/tags/security-plus-41f": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-882-53a"
+        "content": "88210ce3"
       }
     ],
-    "__props": "__props---blog-tags-security-plusf-5-e-156"
+    "__props": "f5e29f3f"
   },
   "/blog/tags/virustotal-57e": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-15-f-667"
+        "content": "15fcb8cd"
       }
     ],
-    "__props": "__props---blog-tags-virustotale-57-572"
+    "__props": "e572b3ac"
   },
   "/blog/tags/volatility-94e": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-15-f-667"
+        "content": "15fcb8cd"
       }
     ],
-    "__props": "__props---blog-tags-volatilityc-75-a5c"
+    "__props": "c752ddb4"
   },
   "/blog/tags/website-3b9": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogcd-2-7dc"
+        "content": "cd2a0970"
       }
     ],
-    "__props": "__props---blog-tags-websitea-30-966"
+    "__props": "a306e229"
   },
   "/blog/tags/welcome-34c": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogcd-2-7dc"
+        "content": "cd2a0970"
       }
     ],
-    "__props": "__props---blog-tags-welcome-436-c4b"
+    "__props": "436029cc"
   },
   "/blog/The Journey So Far-7d2": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-the-journey-so-far-17-e-646"
+    "sidebar": "814f3328",
+    "content": "17ecf9c2"
   },
   "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---about-a-74-c06"
+      "plugin": "a7456010"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/nothing-7e4": {
-    "__comp": "__comp---site-src-pages-nothing-js-153-cfb",
+    "__comp": "1537a8be",
     "__context": {
-      "plugin": "plugin---about-a-74-c06"
+      "plugin": "a7456010"
     },
-    "config": "config---nothing-5-e-9-59c"
+    "config": "5e9f5e1a"
   },
-  "/docs-9bb": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/docs-5b6": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "aba21aa0"
     }
   },
-  "/docs-a20": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+  "/docs-9db": {
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
   },
-  "/docs-b0d": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/docs/-e94": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-fed-c91"
+  "/docs-f05": {
+    "__comp": "a94703ab"
   },
   "/docs/HomeLab/Building The Home Lab-a04": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-home-lab-building-the-home-lab-873-68a"
+    "__comp": "17896441",
+    "content": "873c5764"
+  },
+  "/docs/intro-9bf": {
+    "__comp": "17896441",
+    "content": "fed7d42c"
   },
   "/-fd5": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---about-a-74-c06"
+      "plugin": "a7456010"
     },
-    "content": "content---e-7-c-0a5"
+    "content": "e7ce6630"
   }
 }
