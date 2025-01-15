@@ -32,6 +32,13 @@ Installing PFSense was very straight forward, download the compressed image file
 - **WAN Interface**: `RE0`
 - **LAN Interface**: `RE1`
   For now I have not configured anything else on PFSense. No ACL's or Firewall rules. The goal is to get everything up and running and communicating, and then while fleshing out projects I will enable different settings to simulate different types of network environments.
+
+#### Network Topology
+
+Here is a breakdown of the Network Topology as it's been configure at the current moment.
+
+*Right-Click open in a new tab to see the image larger.*
+![Dario Home Lab Net Topology](img/DC-HomeLabNetworkTopology.svg)
   
   ### Tenda Switch
   
