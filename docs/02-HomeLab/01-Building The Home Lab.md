@@ -68,10 +68,10 @@ Tailscale is my solution for remote access to the lab. It's a VPN implementation
 
 | Hostname            | IP Address | Tailnet Address |
 | ------------------- | ---------- | --------------- |
-| lab01.local         | 10.1.1.11  | 100.95.216.54   |
-| lab02.local         | 10..1.1.12 | 100.64.68.17    |
-| lab03.local         | 10.1.1.13  | 100.65.41.127   |
-| pfsense-pve-gateway | 10.1.1.1   |                 |
+| lab01.local         | 10.1.1.11  | 100.90.166.52   |
+| lab02.local         | 10..1.1.12 | 100.123.54.72   |
+| lab03.local         | 10.1.1.13  | 100.125.134.1   |
+| pfsense-pve-gateway | 10.1.1.1   | 100.65.75.85    |
 
 ![TailNet](img/e8de7edd57167875b2fbb04b08fadd5a.png)
 Great thing about Tailscale is the Magic DNS functionality which allows me to connect to the nodes via there hostname anywhere. So even if I am off-site, I can connect to tailscale and ssh or load the web interface of Proxmox via the hostname.
