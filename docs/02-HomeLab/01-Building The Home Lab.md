@@ -1,5 +1,8 @@
 ---
+title: Building a Cyber Home Lab
 description: Building a Cyber Home Lab
+slug: homelab01
+keywords: [Homelab, Cyber, tailscale, detectionlab, proxmox, clustering]
 ---
 
 # Building The Home Lab

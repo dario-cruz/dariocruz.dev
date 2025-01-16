@@ -314,19 +314,19 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5b6'),
+    component: ComponentCreator('/docs', '833'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '9db'),
+        component: ComponentCreator('/docs', '8c6'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f05'),
+            component: ComponentCreator('/docs', '71c'),
             routes: [
               {
-                path: '/docs/HomeLab/Building The Home Lab',
-                component: ComponentCreator('/docs/HomeLab/Building The Home Lab', 'a04'),
+                path: '/docs/HomeLab/homelab01',
+                component: ComponentCreator('/docs/HomeLab/homelab01', '740'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

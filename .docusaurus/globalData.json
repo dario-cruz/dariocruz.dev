@@ -12,7 +12,7 @@
           "docs": [
             {
               "id": "HomeLab/Building The Home Lab",
-              "path": "/docs/HomeLab/Building The Home Lab",
+              "path": "/docs/HomeLab/homelab01",
               "sidebar": "tutorialSidebar"
             },
             {

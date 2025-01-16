@@ -767,22 +767,22 @@
     },
     "config": "config---nothing-5-e-9-59c"
   },
-  "/docs-5b6": {
+  "/docs-833": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-9db": {
+  "/docs-8c6": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-f05": {
+  "/docs-71c": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/HomeLab/Building The Home Lab-a04": {
+  "/docs/HomeLab/homelab01-740": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-home-lab-building-the-home-lab-873-68a"
+    "content": "content---docs-home-lab-homelab-01873-959"
   },
   "/docs/intro-9bf": {
     "__comp": "__comp---theme-doc-item-178-a40",
