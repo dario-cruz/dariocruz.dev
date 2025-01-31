@@ -26,6 +26,11 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "3.5.2"
+    },
+    "docusaurus-plugin-image-zoom": {
+      "type": "package",
+      "name": "plugin-image-zoom",
+      "version": "1.1.0"
     }
   }
 }

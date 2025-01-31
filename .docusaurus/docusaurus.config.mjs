@@ -37,7 +37,9 @@ export default {
       }
     ]
   ],
-  "plugins": [],
+  "plugins": [
+    "plugin-image-zoom"
+  ],
   "themeConfig": {
     "colorMode": {
       "defaultMode": "dark",
@@ -75,6 +77,14 @@ export default {
         }
       ],
       "hideOnScroll": false
+    },
+    "imageZoom": {
+      "selector": ".markdown img",
+      "options": {
+        "margin": 24,
+        "background": "#1b1b1d",
+        "scrollOffset": 0
+      }
     },
     "footer": {
       "style": "dark",

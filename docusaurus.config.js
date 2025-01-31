@@ -55,7 +55,7 @@ const config = {
   ],
   
   plugins: [
-    
+    'plugin-image-zoom'
   ],
 
   themeConfig:
@@ -89,6 +89,17 @@ const config = {
             position: 'right',
           },
         ],
+      },
+      imageZoom: {
+        // CSS selector to apply the plugin to, defaults to '.markdown img'
+        selector: '.markdown img',
+        // Optional medium-zoom options
+        // see: https://www.npmjs.com/package/medium-zoom#options
+        options: {
+          margin: 24,
+          background: '#1b1b1d',
+          scrollOffset: 0,
+        },
       },
       footer: {
         style: 'dark',
