@@ -55,7 +55,8 @@ const config = {
   ],
   
   plugins: [
-    'plugin-image-zoom'
+    'plugin-image-zoom',
+    require.resolve('docusaurus-lunr-search'),
   ],
 
   themeConfig:

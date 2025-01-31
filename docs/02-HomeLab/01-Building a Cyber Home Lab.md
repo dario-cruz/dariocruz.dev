@@ -5,7 +5,7 @@ slug: homelab01
 keywords: [Homelab, Cyber, tailscale, detectionlab, proxmox, clustering]
 ---
 
-# Building The Home Lab
+# Building a Cyber Home Lab
 
 Hello all, 
 
@@ -34,7 +34,8 @@ Installing PFSense was very straight forward, download the compressed image file
 - **Range End**: `10.1.1.100`
 - **WAN Interface**: `RE0`
 - **LAN Interface**: `RE1`
-  For now I have not configured anything else on PFSense. No ACL's or Firewall rules. The goal is to get everything up and running and communicating, and then while fleshing out projects I will enable different settings to simulate different types of network environments.
+
+For now I have not configured anything else on PFSense. No ACL's or Firewall rules. The goal is to get everything up and running and communicating, and then while fleshing out projects I will enable different settings to simulate different types of network environments.
 
 #### Network Topology
 
@@ -43,16 +44,16 @@ Here is a breakdown of the Network Topology as it's been configure at the curren
 *Right-Click open in a new tab to see the image larger.*
 ![Dario Home Lab Net Topology](img/DC-HomeLabNetworkTopology.svg)
   
-  ### Tenda Switch
+### Tenda Switch
   
-  For switching and interconnecting of physical and logical hosts, we will be using a basic 5 port Tenda switch. The switch is unmanaged and not VLAN aware, which will suit or needs for the time being. 
-  ![Tenda Switch](img/b7f31a49332ceaa1e7549989ef179f9a.png)
+For switching and interconnecting of physical and logical hosts, we will be using a basic 5 port Tenda switch. The switch is unmanaged and not VLAN aware, which will suit or needs for the time being. 
+![Tenda Switch](img/b7f31a49332ceaa1e7549989ef179f9a.png)
   
-  #### Rack Mount
+#### Rack Mount
   
-  I opted to create a simple rack mount for the switch using OnShape, a web based CAD software that's free for students and creators. I took measurements of the switch and noted where the ports where and the power terminal so that everything was accessible.
-  ![Switch Printed Case](img/9d2865053f9d04ad739499f735d3a595.png)
-  Here is the final product, if you ever find your self in need of a rack mount for this specific model of switch you can find that model [here] for download.
+I opted to create a simple rack mount for the switch using OnShape, a web based CAD software that's free for students and creators. I took measurements of the switch and noted where the ports where and the power terminal so that everything was accessible.
+![Switch Printed Case](img/9d2865053f9d04ad739499f735d3a595.png)
+Here is the final product, if you ever find your self in need of a rack mount for this specific model of switch you can find that model [here] for download.
 
 Also, here is the completed rack with the Tenda switch and Zimaboard installed. 😁
 ![Completed Rack](img/cb6ae6e085d2a8f9bcaa4f99f5222dd6.png)
@@ -81,11 +82,16 @@ Great thing about Tailscale is the Magic DNS functionality which allows me to co
 
 Now for the fun part, getting all of these nodes into a cluster. Looking at the Proxmox [documentation](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_pvecm) the only requirement is that the nodes be running Proxmox and have their final hostname & IP address configurations. In the Proxmox GUI we need to navigate to `Datacenter>Cluster`.
 ![Proxmox Shot 01](img/64a20bad6babb4785713d4ee1c65d349.png)
+
 I gave the cluster super original name of `Sec-Lab-Cluster`😜, and proceeded on to the next step.
+
 ![Promxmox Shot 02](img/58a5f5a094c107c012ec9308ddfb46fc.png)
+
 Okay so the cluster has been created. Not it's time to add the other nodes to the Proxmox Cluster and get them talking to one another and sharing resources. For that, we need to login to each other the other two clusters and join them to the cluster established on **Lab01-pve** but, first there is some info that we need handy. We need to login to **Lab01-pve** and get the cluster info to add to the other nodes. So, to do this we go to `Datacenter>Cluster>Join Information`.
 ![Promxmox Shot 03](img/195f3e190385fd59007cef7e1ac2bee6.png)
+
 Then on the joining node we go to `Datacater>Cluster>Join Cluster` and paste in the information. Pasting the info we copied from **Lab01-pve** brings up all the required info for joining the node, minus the root password. We input that and then join the node to the cluster. I did this again on the last and final node and here is the result:
+
 ![Proxmox Shot 04](img/53852baf5ef6b7bff47e744e1b37bae5.png)
 All 3 nodes in a single cluster. 😎
 
