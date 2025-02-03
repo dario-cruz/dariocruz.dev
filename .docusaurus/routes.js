@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '24a'),
+    component: ComponentCreator('/blog', 'a8d'),
     exact: true
   },
   {
@@ -65,6 +65,11 @@ export default [
   {
     path: '/blog/Mastering Identity & Access Management',
     component: ComponentCreator('/blog/Mastering Identity & Access Management', 'a51'),
+    exact: true
+  },
+  {
+    path: '/blog/NetTrafficAnalysis',
+    component: ComponentCreator('/blog/NetTrafficAnalysis', '336'),
     exact: true
   },
   {
@@ -140,6 +145,11 @@ export default [
   {
     path: '/blog/tags/cybersecurity',
     component: ComponentCreator('/blog/tags/cybersecurity', 'b03'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/detection',
+    component: ComponentCreator('/blog/tags/detection', '33e'),
     exact: true
   },
   {
@@ -243,6 +253,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/network-traffic-analysis',
+    component: ComponentCreator('/blog/tags/network-traffic-analysis', '99e'),
+    exact: true
+  },
+  {
     path: '/blog/tags/ntlm',
     component: ComponentCreator('/blog/tags/ntlm', '465'),
     exact: true
@@ -278,6 +293,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/tcpdump',
+    component: ComponentCreator('/blog/tags/tcpdump', '575'),
+    exact: true
+  },
+  {
     path: '/blog/tags/virustotal',
     component: ComponentCreator('/blog/tags/virustotal', '57e'),
     exact: true
@@ -295,6 +315,11 @@ export default [
   {
     path: '/blog/tags/welcome',
     component: ComponentCreator('/blog/tags/welcome', '34c'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/wireshark',
+    component: ComponentCreator('/blog/tags/wireshark', '76a'),
     exact: true
   },
   {

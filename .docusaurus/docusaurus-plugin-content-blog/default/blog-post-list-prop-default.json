@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "What I've Learned - Network Traffic Analysis",
+      "permalink": "/blog/NetTrafficAnalysis",
+      "unlisted": false,
+      "date": "2025-02-03T00:00:00.000Z"
+    },
+    {
       "title": "Kerberoasting: What You Need To Know",
       "permalink": "/blog/Kerberoasting-Explained",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/blog/Security-Plus-Passed",
       "unlisted": false,
       "date": "2024-10-29T00:00:00.000Z"
-    },
-    {
-      "title": "Reaper(HTB-Sherlocks)",
-      "permalink": "/blog/Reaper-HTB-Sherlocks",
-      "unlisted": false,
-      "date": "2024-08-23T00:00:00.000Z"
     }
   ]
 }
