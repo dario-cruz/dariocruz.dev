@@ -105,4 +105,4 @@ Since starting my learning for the Hack The Box CDSA, I have completed the modul
 
 ### Qualys Vulnerability Management
 
-At my current organization, we are implementing Qualys for endpoint vulnerability management. So., it would make sense to learn the platform and how to deploy scanning on end-points.
+At my current organization, we are implementing Qualys for endpoint vulnerability management. So, it would make sense to learn the platform and how to deploy scanning on end-points.
