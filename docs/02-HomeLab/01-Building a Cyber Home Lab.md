@@ -1,11 +1,11 @@
 ---
-title: Building a Cyber Home Lab
-description: Building a Cyber Home Lab
+title: Building a Cybersecurity Home Lab
+description: Building a Cybersecurity Home Lab
 slug: homelab01
 keywords: [Homelab, Cyber, tailscale, detectionlab, proxmox, clustering]
 ---
 
-# Building a Cyber Home Lab
+# Building a CyberSecurity Home Lab
 
 Hello all, 
 
@@ -97,8 +97,12 @@ All 3 nodes in a single cluster. 😎
 
 ## So What's Next?
 
-That's a good question. So my plan is to follow all the the domains of the Security+ and also the SC-300 from Microsoft, both of which are certifications that I currently hold. Applying the learning I have done to hands on projects. I am specifically excited to tackle a PKI project as the topic interested me while I was studying for the Security+ SY0-701.
+That's a good question. So my plan is to follow all the the domains of the Security+ and also the SC-300 from Microsoft, both of which are certifications that I currently hold. Applying the learning I have done to hands on projects. I am specifically excited to tackle a PKI project as the topic interested me while I was studying for the Security+ SY0-701. *Update December 2024: Security+ Certification has been obtained.*
 
 ### Active Directory Labs
 
 Since starting my learning for the Hack The Box CDSA, I have completed the module, Windows Attack & Defense which hosts a large amount of information about attacks that target Active Directory.
+
+### Qualys Vulnerability Management
+
+At my current organization, we are implementing Qualys for endpoint vulnerability management. So., it would make sense to learn the platform and how to deploy scanning on end-points.
