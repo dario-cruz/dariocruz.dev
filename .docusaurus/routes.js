@@ -339,15 +339,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '26f'),
+    component: ComponentCreator('/docs', 'dbf'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'b5e'),
+        component: ComponentCreator('/docs', '6fe'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '06e'),
+            component: ComponentCreator('/docs', '757'),
             routes: [
               {
                 path: '/docs/Home Lab/homelab01',
@@ -364,6 +364,12 @@ export default [
               {
                 path: '/docs/Qualys Vulnerability Management/Introduction',
                 component: ComponentCreator('/docs/Qualys Vulnerability Management/Introduction', 'ecb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Qualys Vulnerability Management/Qualys Cloud Agent',
+                component: ComponentCreator('/docs/Qualys Vulnerability Management/Qualys Cloud Agent', 'f24'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

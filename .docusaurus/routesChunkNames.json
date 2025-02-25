@@ -833,17 +833,17 @@
     },
     "config": "config---nothing-5-e-9-59c"
   },
-  "/docs-26f": {
+  "/docs-dbf": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-b5e": {
+  "/docs-6fe": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-06e": {
+  "/docs-757": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Home Lab/homelab01-22f": {
@@ -857,6 +857,10 @@
   "/docs/Qualys Vulnerability Management/Introduction-ecb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-qualys-vulnerability-management-introduction-02-d-d8b"
+  },
+  "/docs/Qualys Vulnerability Management/Qualys Cloud Agent-f24": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-qualys-vulnerability-management-qualys-cloud-agent-516-941"
   },
   "/docs/Qualys Vulnerability Management/Qualys Scanner Appliance-284": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -26,6 +26,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Qualys Vulnerability Management/Qualys Cloud Agent",
+              "path": "/docs/Qualys Vulnerability Management/Qualys Cloud Agent",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Qualys Vulnerability Management/Qualys Scanner Appliance",
               "path": "/docs/Qualys Vulnerability Management/Qualys Scanner Appliance",
               "sidebar": "tutorialSidebar"
