@@ -11,13 +11,28 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "HomeLab/Building a Cyber Home Lab",
-              "path": "/docs/HomeLab/homelab01",
+              "id": "Home Lab/Building a Cyber Home Lab",
+              "path": "/docs/Home Lab/homelab01",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Qualys Vulnerability Management/Introduction",
+              "path": "/docs/Qualys Vulnerability Management/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Qualys Vulnerability Management/Qualys Scanner Appliance",
+              "path": "/docs/Qualys Vulnerability Management/Qualys Scanner Appliance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Qualys Vulnerability Management/Vulnerabile Windows 10",
+              "path": "/docs/Qualys Vulnerability Management/Vulnerabile Windows 10",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -38,8 +53,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1740148603347.json",
-        "lunrIndex": "lunr-index-1740148603347.json"
+        "searchDoc": "search-doc-1740492732981.json",
+        "lunrIndex": "lunr-index-1740492732981.json"
       }
     }
   }

@@ -339,25 +339,43 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b29'),
+    component: ComponentCreator('/docs', '26f'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'd9c'),
+        component: ComponentCreator('/docs', 'b5e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '771'),
+            component: ComponentCreator('/docs', '06e'),
             routes: [
               {
-                path: '/docs/HomeLab/homelab01',
-                component: ComponentCreator('/docs/HomeLab/homelab01', '0b2'),
+                path: '/docs/Home Lab/homelab01',
+                component: ComponentCreator('/docs/Home Lab/homelab01', '22f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '9bf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Qualys Vulnerability Management/Introduction',
+                component: ComponentCreator('/docs/Qualys Vulnerability Management/Introduction', 'ecb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Qualys Vulnerability Management/Qualys Scanner Appliance',
+                component: ComponentCreator('/docs/Qualys Vulnerability Management/Qualys Scanner Appliance', '284'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Qualys Vulnerability Management/Vulnerabile Windows 10',
+                component: ComponentCreator('/docs/Qualys Vulnerability Management/Vulnerabile Windows 10', '154'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

@@ -833,26 +833,38 @@
     },
     "config": "config---nothing-5-e-9-59c"
   },
-  "/docs-b29": {
+  "/docs-26f": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-d9c": {
+  "/docs-b5e": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-771": {
+  "/docs-06e": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/HomeLab/homelab01-0b2": {
+  "/docs/Home Lab/homelab01-22f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-home-lab-homelab-017-ce-491"
+    "content": "content---docs-home-lab-homelab-01593-505"
   },
   "/docs/intro-9bf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-introfed-f91"
+  },
+  "/docs/Qualys Vulnerability Management/Introduction-ecb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-qualys-vulnerability-management-introduction-02-d-d8b"
+  },
+  "/docs/Qualys Vulnerability Management/Qualys Scanner Appliance-284": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-qualys-vulnerability-management-qualys-scanner-applianced-81-5b4"
+  },
+  "/docs/Qualys Vulnerability Management/Vulnerabile Windows 10-154": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-qualys-vulnerability-management-vulnerabile-windows-1058-e-03d"
   },
   "/-fd5": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
