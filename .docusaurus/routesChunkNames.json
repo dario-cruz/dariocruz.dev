@@ -833,17 +833,17 @@
     },
     "config": "config---nothing-5-e-9-59c"
   },
-  "/docs-dbf": {
+  "/docs-836": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-6fe": {
+  "/docs-385": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-757": {
+  "/docs-cb9": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Home Lab/homelab01-22f": {
@@ -862,9 +862,21 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-qualys-vulnerability-management-qualys-cloud-agent-516-941"
   },
+  "/docs/Qualys Vulnerability Management/Qualys Cloud Agent vs Scanner Appliance-184": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-qualys-vulnerability-management-qualys-cloud-agent-vs-scanner-applianceb-9-d-6ae"
+  },
+  "/docs/Qualys Vulnerability Management/Qualys Network Discovery-d88": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-qualys-vulnerability-management-qualys-network-discovery-3-d-5-d07"
+  },
   "/docs/Qualys Vulnerability Management/Qualys Scanner Appliance-284": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-qualys-vulnerability-management-qualys-scanner-applianced-81-5b4"
+  },
+  "/docs/Qualys Vulnerability Management/Remediation-6db": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-qualys-vulnerability-management-remediationbbd-6b7"
   },
   "/docs/Qualys Vulnerability Management/Vulnerabile Windows 10-154": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -339,15 +339,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'dbf'),
+    component: ComponentCreator('/docs', '836'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '6fe'),
+        component: ComponentCreator('/docs', '385'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '757'),
+            component: ComponentCreator('/docs', 'cb9'),
             routes: [
               {
                 path: '/docs/Home Lab/homelab01',
@@ -374,8 +374,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Qualys Vulnerability Management/Qualys Cloud Agent vs Scanner Appliance',
+                component: ComponentCreator('/docs/Qualys Vulnerability Management/Qualys Cloud Agent vs Scanner Appliance', '184'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Qualys Vulnerability Management/Qualys Network Discovery',
+                component: ComponentCreator('/docs/Qualys Vulnerability Management/Qualys Network Discovery', 'd88'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Qualys Vulnerability Management/Qualys Scanner Appliance',
                 component: ComponentCreator('/docs/Qualys Vulnerability Management/Qualys Scanner Appliance', '284'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Qualys Vulnerability Management/Remediation',
+                component: ComponentCreator('/docs/Qualys Vulnerability Management/Remediation', '6db'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

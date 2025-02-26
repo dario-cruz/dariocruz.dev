@@ -31,8 +31,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Qualys Vulnerability Management/Qualys Cloud Agent vs Scanner Appliance",
+              "path": "/docs/Qualys Vulnerability Management/Qualys Cloud Agent vs Scanner Appliance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Qualys Vulnerability Management/Qualys Network Discovery",
+              "path": "/docs/Qualys Vulnerability Management/Qualys Network Discovery",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Qualys Vulnerability Management/Qualys Scanner Appliance",
               "path": "/docs/Qualys Vulnerability Management/Qualys Scanner Appliance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Qualys Vulnerability Management/Remediation",
+              "path": "/docs/Qualys Vulnerability Management/Remediation",
               "sidebar": "tutorialSidebar"
             },
             {
