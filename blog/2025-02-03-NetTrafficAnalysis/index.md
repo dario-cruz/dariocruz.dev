@@ -3,6 +3,7 @@ slug: NetTrafficAnalysis
 title: "What I've Learned - Network Traffic Analysis"
 authors: [dcruz]
 tags: [NetworkTrafficAnalysis, Detection, Wireshark, tcpdump]
+enableComments: true # for Gisqus
 ---
 
 ![Network Traffic Detective](img/Net%20Traffic%20Detective.png)
