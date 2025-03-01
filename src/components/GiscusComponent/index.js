@@ -8,7 +8,7 @@ export default function GiscusComponent() {
   return (
     <Giscus    
       repo="dario-cruz/dariocruz.dev-comments"
-      repoId="idOfCreatedRepo"
+      repoId="R_kgDOOBqFXw"
       category="General"
       categoryId="IdOfDiscussionCategory"  // E.g. id of "General"
       mapping="url"                        // Important! To map comments to URL
