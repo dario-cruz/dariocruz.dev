@@ -3,6 +3,7 @@ slug: Site Up and Running
 title: Site Up and Running
 authors: [dcruz]
 tags: [welcome, website, azure, cicd, react]
+enableComments: true # for Gisqus
 ---
 
 # Welcome to the Site
