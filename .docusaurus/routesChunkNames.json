@@ -49,13 +49,16 @@
     },
     "content": "content---about-f-22-13e"
   },
-  "/blog-a8d": {
+  "/blog-ea1": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-717-1dc"
+      },
       {
         "content": "content---blogddd-ac5"
       },
@@ -114,6 +117,17 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-kerberoasting-explained-730-f9f"
+  },
+  "/blog/Loggy-Sherlock-040": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-loggy-sherlocka-24-9fe"
   },
   "/blog/Mastering Identity & Access Management-a51": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -355,6 +369,32 @@
     ],
     "__props": "__props---blog-tags-entra-idc-4-a-4bb"
   },
+  "/blog/tags/flare-vm-efa": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-717-1dc"
+      }
+    ],
+    "__props": "__props---blog-tags-flare-vm-2-b-5-c85"
+  },
+  "/blog/tags/ghidra-7b0": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-717-1dc"
+      }
+    ],
+    "__props": "__props---blog-tags-ghidra-3-df-a4b"
+  },
   "/blog/tags/google-058": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -381,6 +421,19 @@
     ],
     "__props": "__props---blog-tags-governancec-83-ecf"
   },
+  "/blog/tags/grep-63f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-717-1dc"
+      }
+    ],
+    "__props": "__props---blog-tags-grep-8-c-0-085"
+  },
   "/blog/tags/hack-the-box-e41": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -394,13 +447,16 @@
     ],
     "__props": "__props---blog-tags-hack-the-box-9-ba-e4a"
   },
-  "/blog/tags/hackthebox-793": {
+  "/blog/tags/hackthebox-8d8": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-717-1dc"
+      },
       {
         "content": "content---blog-15-f-667"
       },
@@ -568,6 +624,19 @@
     ],
     "__props": "__props---blog-tags-llmnree-0-131"
   },
+  "/blog/tags/malware-analysis-565": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-717-1dc"
+      }
+    ],
+    "__props": "__props---blog-tags-malware-analysis-555-78c"
+  },
   "/blog/tags/memory-forensics-717": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -704,6 +773,19 @@
     ],
     "__props": "__props---blog-tags-react-8-a-4-89d"
   },
+  "/blog/tags/reverse-engineering-cda": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-717-1dc"
+      }
+    ],
+    "__props": "__props---blog-tags-reverse-engineeringe-09-23a"
+  },
   "/blog/tags/rubeus-bb3": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -729,6 +811,19 @@
       }
     ],
     "__props": "__props---blog-tags-security-plusf-5-e-156"
+  },
+  "/blog/tags/strings-0b3": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-717-1dc"
+      }
+    ],
+    "__props": "__props---blog-tags-stringsbc-2-b80"
   },
   "/blog/tags/tcpdump-575": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",

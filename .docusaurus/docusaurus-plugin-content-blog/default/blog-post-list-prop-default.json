@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Loggy (HTB-Sherlock)",
+      "permalink": "/blog/Loggy-Sherlock",
+      "unlisted": false,
+      "date": "2025-03-19T00:00:00.000Z"
+    },
+    {
       "title": "What I've Learned - Network Traffic Analysis",
       "permalink": "/blog/NetTrafficAnalysis",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/blog/Noxious-HTB-Sherlocks",
       "unlisted": false,
       "date": "2024-10-31T00:00:00.000Z"
-    },
-    {
-      "title": "Security+ Passed!",
-      "permalink": "/blog/Security-Plus-Passed",
-      "unlisted": false,
-      "date": "2024-10-29T00:00:00.000Z"
     }
   ]
 }

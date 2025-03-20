@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'a8d'),
+    component: ComponentCreator('/blog', 'ea1'),
     exact: true
   },
   {
@@ -60,6 +60,11 @@ export default [
   {
     path: '/blog/Kerberoasting-Explained',
     component: ComponentCreator('/blog/Kerberoasting-Explained', 'd95'),
+    exact: true
+  },
+  {
+    path: '/blog/Loggy-Sherlock',
+    component: ComponentCreator('/blog/Loggy-Sherlock', '040'),
     exact: true
   },
   {
@@ -158,6 +163,16 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/flare-vm',
+    component: ComponentCreator('/blog/tags/flare-vm', 'efa'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/ghidra',
+    component: ComponentCreator('/blog/tags/ghidra', '7b0'),
+    exact: true
+  },
+  {
     path: '/blog/tags/google',
     component: ComponentCreator('/blog/tags/google', '058'),
     exact: true
@@ -168,13 +183,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/grep',
+    component: ComponentCreator('/blog/tags/grep', '63f'),
+    exact: true
+  },
+  {
     path: '/blog/tags/hack-the-box',
     component: ComponentCreator('/blog/tags/hack-the-box', 'e41'),
     exact: true
   },
   {
     path: '/blog/tags/hackthebox',
-    component: ComponentCreator('/blog/tags/hackthebox', '793'),
+    component: ComponentCreator('/blog/tags/hackthebox', '8d8'),
     exact: true
   },
   {
@@ -233,6 +253,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/malware-analysis',
+    component: ComponentCreator('/blog/tags/malware-analysis', '565'),
+    exact: true
+  },
+  {
     path: '/blog/tags/memory-forensics',
     component: ComponentCreator('/blog/tags/memory-forensics', '717'),
     exact: true
@@ -283,6 +308,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/reverse-engineering',
+    component: ComponentCreator('/blog/tags/reverse-engineering', 'cda'),
+    exact: true
+  },
+  {
     path: '/blog/tags/rubeus',
     component: ComponentCreator('/blog/tags/rubeus', 'bb3'),
     exact: true
@@ -290,6 +320,11 @@ export default [
   {
     path: '/blog/tags/security-plus',
     component: ComponentCreator('/blog/tags/security-plus', '41f'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/strings',
+    component: ComponentCreator('/blog/tags/strings', '0b3'),
     exact: true
   },
   {
