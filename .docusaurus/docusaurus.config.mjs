@@ -39,7 +39,7 @@ export default {
   ],
   "plugins": [
     "plugin-image-zoom",
-    "C:\\Users\\dario\\repos\\dariocruz.dev\\node_modules\\docusaurus-lunr-search\\src\\index.js"
+    "/home/dcruz/repos/dariocruz.dev/node_modules/docusaurus-lunr-search/src/index.js"
   ],
   "themeConfig": {
     "colorMode": {
@@ -48,6 +48,32 @@ export default {
       "respectPrefersColorScheme": false
     },
     "image": "img/docusaurus-social-card.jpg",
+    "metadata": [
+      {
+        "name": "keywords",
+        "content": "cybersecurity, blog, portfolio, dario, cruz, dario cruz, dariocruz"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "headTags": [
+      {
+        "tagName": "link",
+        "attributes": {
+          "rel": "preconnect",
+          "href": "https://dariocruz.dev"
+        }
+      },
+      {
+        "tagName": "script",
+        "attributes": {
+          "type": "application/ld+json"
+        },
+        "innerHTML": "{\"@context\":\"https://schema.org/\",\"@type\":\"Organization\",\"name\":\"Dariocruz.dev cyber blog & portfolio\",\"url\":\"https://dariocruz.dev/\",\"logo\":\"https://dariocruz.dev/img/logo.svg\"}"
+      }
+    ],
     "navbar": {
       "title": "DarioCruz.dev",
       "logo": {
@@ -308,7 +334,6 @@ export default {
         "groupByYear": true
       }
     },
-    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
