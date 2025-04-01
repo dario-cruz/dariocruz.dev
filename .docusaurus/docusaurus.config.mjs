@@ -39,7 +39,7 @@ export default {
   ],
   "plugins": [
     "plugin-image-zoom",
-    "/home/dcruz/repos/dariocruz.dev/node_modules/docusaurus-lunr-search/src/index.js"
+    "C:\\Users\\dario\\repos\\dariocruz.dev\\node_modules\\docusaurus-lunr-search\\src\\index.js"
   ],
   "themeConfig": {
     "colorMode": {
@@ -341,14 +341,6 @@ export default {
   },
   "baseUrlIssueBanner": true,
   "future": {
-    "experimental_faster": {
-      "swcJsLoader": false,
-      "swcJsMinimizer": false,
-      "swcHtmlMinimizer": false,
-      "lightningCssMinimizer": false,
-      "mdxCrossCompilerCache": false,
-      "rspackBundler": false
-    },
     "experimental_storage": {
       "type": "localStorage",
       "namespace": false

@@ -5,7 +5,8 @@ authors: [dcruz]
 tags: [hackthebox, Malware Analysis, Ghidra, FlareVM, strings, grep, reverse engineering]
 enableComments: true
 ---
-![Loggy Main Image](img/Loggy%20_HTB-Sherlocks_-1742397926286.webp)Hey all, it's been a while since my last sherlock post but, rest assured I am still out here studying and learning.🤓 Now lets dive into another investigation.
+![Loggy Main Image](img/Loggy%20_HTB-Sherlocks_-1742397926286.webp)
+Hey all, it's been a while since my last Sherlock post but rest assured I am still out here studying and learning.🤓 Now let's dive into another investigation.
 
 ## Scenario
 
@@ -19,7 +20,7 @@ For this Sherlock we are provided with a zip file that contains some image files
 
 ![File List](img/Loggy%20_HTB-Sherlocks_-1741804463466.webp)
 
-The `danger.txt` file just has some warnings about the malicious windows executable in `danger.zip`. I went ahead and extracted the malicious file on to my Kali Linux VM and took a look at the first task in the Sherlock.
+The `danger.txt` file just has some warnings about the malicious windows executable in `danger.zip`. I went ahead and extracted the malicious file onto my Kali Linux VM and took a look at the first task in the Sherlock.
 
 ## Task 1
 
@@ -31,7 +32,7 @@ I went ahead and obtained the SHA-256 hash via using the `sha256sum` cli utility
 
 ![FIle Hash](img/Loggy%20_HTB-Sherlocks_-1741804778740.webp)
 
-As you can see form the screenshot above the SHA-256 hash of the malicious file, Loggy.exe is **`6acd8a362def62034cbd011e6632ba5120196e2011c83dc6045fcb28b590457c`**.
+As you can see from the screenshot above the SHA-256 hash of the malicious file, Loggy.exe is **`6acd8a362def62034cbd011e6632ba5120196e2011c83dc6045fcb28b590457c`**.
 
 ![Task 1 Flag](img/Loggy%20_HTB-Sherlocks_-1741957189991.webp)
 
@@ -39,7 +40,7 @@ As you can see form the screenshot above the SHA-256 hash of the malicious file,
 
 **What programming language (and version) is this malware written in?**
 
-Hmm, okay for this I attempted to use the `strings` utility. The output from running the strings command without any flags/options produced a large amount of results. To target this a little more I decided to make use of the `-n` flag which tells `strings` to return only strings of a specific length. I ran the command `strings -n 6 loggy.exe` and took a look at the results.
+Hmm, okay for this I attempted to use the `strings` utility. The output from running the strings command without any flags/options produced a large number of results. To target this a little more I decided to make use of the `-n` flag which tells `strings` to return only strings of a specific length. I ran the command `strings -n 6 loggy.exe` and took a look at the results.
 
 ![Task 2 String Output 01](img/Loggy%20_HTB-Sherlocks_-1741807341782.webp)
 
@@ -63,9 +64,9 @@ Running the strings utility with grep looking for `go1`, the results returned ar
 
 ## Task 3
 
-**There are multiple GitHub repos referenced in the static strings. Which GitHub repo would be most likely suggest the ability of this malware to exfiltrate data?**
+**There are multiple GitHub repos referenced in the static strings. Which GitHub repo would most likely suggest the ability of this malware to exfiltrate data?**
 
-So, we need to look at the GitHub repos that are showing up as strings in our malware sample. While I was scrolling through the strings output during the first tasks, I did see a long list of repos that the malware had in it's code. Most likely these are used either to download or upload data for malicious functions.
+So, we need to look at the GitHub repos that are showing up as strings in our malware sample. While I was scrolling through the strings output during the first tasks, I did see a long list of repos that the malware had in its code. Most likely these are used either to download or upload data for malicious functions.
 
 First command I used to filter for repos was the following.
 
@@ -88,7 +89,7 @@ It's a function in one of the Golang packages that is able to establish and main
 
 **What dependency, expressed as a GitHub repo, supports Janice’s assertion that she thought she downloaded something that can just take screenshots?**
 
-The answer to this task, I actually saw in looking for the answer to task 3. There were some GitHub repo strings that referenced `github.com/kbinani/screenshot/internal/util.CreateImage`. Lets use a grep filter and search for strings that contain `screenshot` and take a look.
+The answer to this task, I actually saw in looking for the answer to task 3. There were some GitHub repo strings that referenced `github.com/kbinani/screenshot/internal/util.CreateImage`. Let's use a grep filter and search for strings that contain `screenshot` and take a look.
 
 ```bash
 strings loggy.exe | grep github | grep screenshot
@@ -98,7 +99,7 @@ I got the following output confirming the usage of `github.com/kbinani/screensho
 
 ![Task 4 String Output 01](img/Loggy%20_HTB-Sherlocks_-1741957606261.webp)
 
-Looking at the github repo website it explains that it hosts a library that provides *screenshot* functionality in Golang.
+Looking at the Github repo website it explains that it hosts a library that provides *screenshot* functionality in Golang.
 
 ![Task 4 Github Repo](img/Loggy%20_HTB-Sherlocks_-1742478276466.webp)
 
@@ -108,7 +109,7 @@ Looking at the github repo website it explains that it hosts a library that prov
 
 **Which function call suggests that the malware produces a file after execution?**
 
-For this task I started off with doing some research on Golang and how it calls functions, leveraging the knowledge that the malware was written in Golang. In most programming language the syntax for creating a file is normally `write` and may include the word `file`.  I filtered the strings output with the command below:
+For this task I started off with doing some research on Golang and how it calls functions, leveraging the knowledge that the malware was written in Golang. In most programming languages the syntax for creating a file is normally `write` and may include the word `file`.  I filtered the strings output with the command below:
 
 ```bash
 strings loggy.exe | grep -i write | grep -i file
@@ -200,7 +201,7 @@ So, with all of this collected data and insight, I went ahead and input `keylog.
 
 Alright so from the previous task we know that the malware is logging keystrokes to the `keylog.txt` file. We also know that there are keycodes and characters present in the file as well.
 
-I did some searching around for a tool to convert keycodes to characters but, could not find a tool that fit my need. This is where I turned to ChatGPT to analyze the contents of the `keylog.txt` file and provide some insights/results.
+I did some searching around for a tool to convert keycodes to characters but, could not find a tool that fit my needs. This is where I turned to ChatGPT to analyze the contents of the `keylog.txt` file and provide some insights/results.
 
 ![Task 9 ChatGPT](img/Loggy%20_HTB-Sherlocks_-1742391408637.webp)
 
@@ -214,7 +215,7 @@ We know that the user's name is `Janice` but, there are a few options presented 
 
 **What app did Janice have open the last time she ran the "screenshot app"?**
 
-This task is straight forward. Included in the zip file for the sherlock is a series of 4 image files. Looking at the sequence of images we can see that the user had the `Solitaire` app open the last time she ran the malware.
+This task is straightforward. Included in the zip file for the sherlock is a series of 4 image files. Looking at the sequence of images we can see that the user had the `Solitaire` app open the last time she ran the malware.
 
 ![Task 10 Screenshot 01](img/Loggy%20_HTB-Sherlocks_-1742393597149.webp)
 
@@ -224,6 +225,6 @@ This task is straight forward. Included in the zip file for the sherlock is a se
 
 ## Key Takeaways
 
-- [FlareVM](https://github.com/mandiant/flare-vm) is a really good resource for setting up reverse engineering machines. With it's comprehensive list of tools and utilities it makes the task of reverse engineering & malware analysis that much more easy.
+- [FlareVM](https://github.com/mandiant/flare-vm) is a really good resource for setting up reverse engineering machines. With its comprehensive list of tools and utilities it makes the task of reverse engineering & malware analysis that much more easy.
 - `strings` & `grep` can be useful in passive analysis of malware. When used in conjunction they allow for filtering and gathering information about said malware. This facilitates deeper investigation and understanding of malware behavior.
-- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) is a reverse engineering framework developed by the NSA. It provides much of the same functionality as another popular tool [IDA](https://hex-rays.com/) , decompiling of Windows Portable Executable files, the ability to see function logic and defined variables, etc. Ghidra is also open-source compared to IDA which is closed and has a pro version.
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) is a reverse engineering framework developed by the NSA. It provides much of the same functionality as another popular tool [IDA](https://hex-rays.com/) , decompiling of Windows Portable Executable files, the ability to see function logic and defined variables, etc. Ghidra is also open-source compared to IDA which is proprietary and has a pro version.
