@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Campfire 1 (HTB-Sherlock)",
+      "permalink": "/blog/Campfire1-Sherlock",
+      "unlisted": false,
+      "date": "2025-04-03T00:00:00.000Z"
+    },
+    {
       "title": "Loggy (HTB-Sherlock)",
       "permalink": "/blog/Loggy-Sherlock",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/blog/RogueOne-HTB-Sherlocks",
       "unlisted": false,
       "date": "2024-11-18T00:00:00.000Z"
-    },
-    {
-      "title": "Noxious (HTB-Sherlocks)",
-      "permalink": "/blog/Noxious-HTB-Sherlocks",
-      "unlisted": false,
-      "date": "2024-10-31T00:00:00.000Z"
     }
   ]
 }

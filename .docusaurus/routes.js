@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'ea1'),
+    component: ComponentCreator('/blog', '9e6'),
     exact: true
   },
   {
@@ -55,6 +55,11 @@ export default [
   {
     path: '/blog/authors',
     component: ComponentCreator('/blog/authors', '0b7'),
+    exact: true
+  },
+  {
+    path: '/blog/Campfire1-Sherlock',
+    component: ComponentCreator('/blog/Campfire1-Sherlock', '11d'),
     exact: true
   },
   {
@@ -80,6 +85,11 @@ export default [
   {
     path: '/blog/Noxious-HTB-Sherlocks',
     component: ComponentCreator('/blog/Noxious-HTB-Sherlocks', '5fd'),
+    exact: true
+  },
+  {
+    path: '/blog/page/2',
+    component: ComponentCreator('/blog/page/2', 'e99'),
     exact: true
   },
   {
@@ -109,7 +119,7 @@ export default [
   },
   {
     path: '/blog/tags/active-directory',
-    component: ComponentCreator('/blog/tags/active-directory', '050'),
+    component: ComponentCreator('/blog/tags/active-directory', '250'),
     exact: true
   },
   {
@@ -163,6 +173,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/event-logs',
+    component: ComponentCreator('/blog/tags/event-logs', '44c'),
+    exact: true
+  },
+  {
     path: '/blog/tags/flare-vm',
     component: ComponentCreator('/blog/tags/flare-vm', 'efa'),
     exact: true
@@ -194,7 +209,7 @@ export default [
   },
   {
     path: '/blog/tags/hackthebox',
-    component: ComponentCreator('/blog/tags/hackthebox', '8d8'),
+    component: ComponentCreator('/blog/tags/hackthebox', '8a9'),
     exact: true
   },
   {
@@ -229,12 +244,12 @@ export default [
   },
   {
     path: '/blog/tags/kerberoasting',
-    component: ComponentCreator('/blog/tags/kerberoasting', '546'),
+    component: ComponentCreator('/blog/tags/kerberoasting', 'b7e'),
     exact: true
   },
   {
     path: '/blog/tags/kerberos',
-    component: ComponentCreator('/blog/tags/kerberos', '3c3'),
+    component: ComponentCreator('/blog/tags/kerberos', 'f16'),
     exact: true
   },
   {
@@ -250,6 +265,11 @@ export default [
   {
     path: '/blog/tags/llmnr',
     component: ComponentCreator('/blog/tags/llmnr', 'dec'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/log-analysis',
+    component: ComponentCreator('/blog/tags/log-analysis', '54d'),
     exact: true
   },
   {
@@ -295,6 +315,16 @@ export default [
   {
     path: '/blog/tags/pass-the-hash',
     component: ComponentCreator('/blog/tags/pass-the-hash', '87a'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/pe-cmd',
+    component: ComponentCreator('/blog/tags/pe-cmd', '1d6'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/prefetch',
+    component: ComponentCreator('/blog/tags/prefetch', 'f87'),
     exact: true
   },
   {
