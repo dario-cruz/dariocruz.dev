@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '9e6'),
+    component: ComponentCreator('/blog', 'c20'),
     exact: true
   },
   {
@@ -60,6 +60,11 @@ export default [
   {
     path: '/blog/Campfire1-Sherlock',
     component: ComponentCreator('/blog/Campfire1-Sherlock', '11d'),
+    exact: true
+  },
+  {
+    path: '/blog/Campfire2-Sherlock',
+    component: ComponentCreator('/blog/Campfire2-Sherlock', '8bd'),
     exact: true
   },
   {
@@ -89,7 +94,7 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', 'e99'),
+    component: ComponentCreator('/blog/page/2', '33b'),
     exact: true
   },
   {
@@ -119,7 +124,17 @@ export default [
   },
   {
     path: '/blog/tags/active-directory',
-    component: ComponentCreator('/blog/tags/active-directory', '250'),
+    component: ComponentCreator('/blog/tags/active-directory', 'f6d'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/as-rep',
+    component: ComponentCreator('/blog/tags/as-rep', '1b4'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/as-rep-roasting',
+    component: ComponentCreator('/blog/tags/as-rep-roasting', '05d'),
     exact: true
   },
   {
@@ -174,7 +189,7 @@ export default [
   },
   {
     path: '/blog/tags/event-logs',
-    component: ComponentCreator('/blog/tags/event-logs', '44c'),
+    component: ComponentCreator('/blog/tags/event-logs', '66e'),
     exact: true
   },
   {
@@ -209,7 +224,7 @@ export default [
   },
   {
     path: '/blog/tags/hackthebox',
-    component: ComponentCreator('/blog/tags/hackthebox', '8a9'),
+    component: ComponentCreator('/blog/tags/hackthebox', 'da6'),
     exact: true
   },
   {
@@ -244,12 +259,12 @@ export default [
   },
   {
     path: '/blog/tags/kerberoasting',
-    component: ComponentCreator('/blog/tags/kerberoasting', 'b7e'),
+    component: ComponentCreator('/blog/tags/kerberoasting', 'd14'),
     exact: true
   },
   {
     path: '/blog/tags/kerberos',
-    component: ComponentCreator('/blog/tags/kerberos', 'f16'),
+    component: ComponentCreator('/blog/tags/kerberos', '0aa'),
     exact: true
   },
   {
@@ -269,7 +284,7 @@ export default [
   },
   {
     path: '/blog/tags/log-analysis',
-    component: ComponentCreator('/blog/tags/log-analysis', '54d'),
+    component: ComponentCreator('/blog/tags/log-analysis', '20c'),
     exact: true
   },
   {

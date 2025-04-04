@@ -49,13 +49,16 @@
     },
     "content": "content---about-f-22-13e"
   },
-  "/blog-9e6": {
+  "/blog-c20": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-197-5de"
+      },
       {
         "content": "content---blog-01-c-a01"
       },
@@ -82,9 +85,6 @@
       },
       {
         "content": "content---blogd-3-f-39c"
-      },
-      {
-        "content": "content---blog-3-fa-41b"
       }
     ],
     "__props": "__props---blogc-15-573"
@@ -117,6 +117,17 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-campfire-1-sherlock-1-ad-9f2"
+  },
+  "/blog/Campfire2-Sherlock-8bd": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-campfire-2-sherlock-426-732"
   },
   "/blog/Kerberoasting-Explained-d95": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -173,13 +184,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-noxious-htb-sherlocksb-88-928"
   },
-  "/blog/page/2-e99": {
+  "/blog/page/2-33b": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-23-fa-042"
+      },
       {
         "content": "content---blog-page-2-cd-2-6b6"
       }
@@ -238,13 +252,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-tags-3-a-2-fa2"
   },
-  "/blog/tags/active-directory-250": {
+  "/blog/tags/active-directory-f6d": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-197-5de"
+      },
       {
         "content": "content---blog-01-c-a01"
       },
@@ -254,6 +271,32 @@
     ],
     "__props": "__props---blog-tags-active-directorye-44-0a4"
   },
+  "/blog/tags/as-rep-1b4": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-197-5de"
+      }
+    ],
+    "__props": "__props---blog-tags-as-repeb-8-d28"
+  },
+  "/blog/tags/as-rep-roasting-05d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-197-5de"
+      }
+    ],
+    "__props": "__props---blog-tags-as-rep-roasting-84-c-ff8"
+  },
   "/blog/tags/authentication-9b6": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -262,7 +305,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       }
     ],
     "__props": "__props---blog-tags-authentication-782-a02"
@@ -275,7 +318,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       }
     ],
     "__props": "__props---blog-tags-authorizationd-29-486"
@@ -291,7 +334,7 @@
         "content": "content---blogd-3-f-39c"
       },
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       },
       {
         "content": "content---blog-page-2-cd-2-6b6"
@@ -336,7 +379,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       }
     ],
     "__props": "__props---blog-tags-compliance-7-d-1-e32"
@@ -365,7 +408,7 @@
         "content": "content---blogd-3-f-39c"
       },
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       }
     ],
     "__props": "__props---blog-tags-cybersecurityab-3-493"
@@ -391,18 +434,21 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       }
     ],
     "__props": "__props---blog-tags-entra-idc-4-a-4bb"
   },
-  "/blog/tags/event-logs-44c": {
+  "/blog/tags/event-logs-66e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-197-5de"
+      },
       {
         "content": "content---blog-01-c-a01"
       }
@@ -456,7 +502,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       }
     ],
     "__props": "__props---blog-tags-governancec-83-ecf"
@@ -487,13 +533,16 @@
     ],
     "__props": "__props---blog-tags-hack-the-box-9-ba-e4a"
   },
-  "/blog/tags/hackthebox-8a9": {
+  "/blog/tags/hackthebox-da6": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-197-5de"
+      },
       {
         "content": "content---blog-01-c-a01"
       },
@@ -559,7 +608,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       }
     ],
     "__props": "__props---blog-tags-iam-865-866"
@@ -596,13 +645,16 @@
     ],
     "__props": "__props---blog-tags-incident-response-4-b-2-c11"
   },
-  "/blog/tags/kerberoasting-b7e": {
+  "/blog/tags/kerberoasting-d14": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-197-5de"
+      },
       {
         "content": "content---blog-01-c-a01"
       },
@@ -612,13 +664,16 @@
     ],
     "__props": "__props---blog-tags-kerberoasting-44-d-c74"
   },
-  "/blog/tags/kerberos-f16": {
+  "/blog/tags/kerberos-0aa": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-197-5de"
+      },
       {
         "content": "content---blog-01-c-a01"
       },
@@ -655,7 +710,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       }
     ],
     "__props": "__props---blog-tags-lifecycle-091-d2d"
@@ -673,13 +728,16 @@
     ],
     "__props": "__props---blog-tags-llmnree-0-131"
   },
-  "/blog/tags/log-analysis-54d": {
+  "/blog/tags/log-analysis-20c": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-197-5de"
+      },
       {
         "content": "content---blog-01-c-a01"
       }
@@ -723,7 +781,7 @@
         "content": "content---blogd-3-f-39c"
       },
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       }
     ],
     "__props": "__props---blog-tags-microsoftde-8-61d"
@@ -736,7 +794,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-3-fa-41b"
+        "content": "content---blog-page-23-fa-042"
       }
     ],
     "__props": "__props---blog-tags-monitoringf-65-a87"
