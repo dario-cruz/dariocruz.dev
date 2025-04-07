@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'c20'),
+    component: ComponentCreator('/blog', '729'),
     exact: true
   },
   {
@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/blog/Reaper-HTB-Sherlocks',
-    component: ComponentCreator('/blog/Reaper-HTB-Sherlocks', '291'),
+    component: ComponentCreator('/blog/Reaper-HTB-Sherlocks', 'e9a'),
     exact: true
   },
   {
@@ -224,7 +224,7 @@ export default [
   },
   {
     path: '/blog/tags/hackthebox',
-    component: ComponentCreator('/blog/tags/hackthebox', 'da6'),
+    component: ComponentCreator('/blog/tags/hackthebox', 'e67'),
     exact: true
   },
   {
@@ -249,12 +249,12 @@ export default [
   },
   {
     path: '/blog/tags/incident-investigation',
-    component: ComponentCreator('/blog/tags/incident-investigation', '2bc'),
+    component: ComponentCreator('/blog/tags/incident-investigation', '8a6'),
     exact: true
   },
   {
     path: '/blog/tags/incident-response',
-    component: ComponentCreator('/blog/tags/incident-response', '4b8'),
+    component: ComponentCreator('/blog/tags/incident-response', 'e5d'),
     exact: true
   },
   {
@@ -269,7 +269,7 @@ export default [
   },
   {
     path: '/blog/tags/labs',
-    component: ComponentCreator('/blog/tags/labs', 'ba2'),
+    component: ComponentCreator('/blog/tags/labs', 'df0'),
     exact: true
   },
   {
@@ -309,7 +309,7 @@ export default [
   },
   {
     path: '/blog/tags/net-bios',
-    component: ComponentCreator('/blog/tags/net-bios', '2d3'),
+    component: ComponentCreator('/blog/tags/net-bios', 'daf'),
     exact: true
   },
   {
@@ -319,7 +319,7 @@ export default [
   },
   {
     path: '/blog/tags/ntlm',
-    component: ComponentCreator('/blog/tags/ntlm', '465'),
+    component: ComponentCreator('/blog/tags/ntlm', 'b18'),
     exact: true
   },
   {
@@ -329,7 +329,7 @@ export default [
   },
   {
     path: '/blog/tags/pass-the-hash',
-    component: ComponentCreator('/blog/tags/pass-the-hash', '87a'),
+    component: ComponentCreator('/blog/tags/pass-the-hash', 'a3b'),
     exact: true
   },
   {
