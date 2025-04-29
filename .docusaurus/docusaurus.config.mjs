@@ -29,7 +29,9 @@ export default {
           "sidebarPath": "./sidebars.js"
         },
         "blog": {
-          "showReadingTime": true
+          "showReadingTime": true,
+          "blogSidebarTitle": "All posts",
+          "blogSidebarCount": "ALL"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
