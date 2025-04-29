@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '729'),
+    component: ComponentCreator('/blog', '6df'),
     exact: true
   },
   {
@@ -65,6 +65,11 @@ export default [
   {
     path: '/blog/Campfire2-Sherlock',
     component: ComponentCreator('/blog/Campfire2-Sherlock', '8bd'),
+    exact: true
+  },
+  {
+    path: '/blog/CrownJewel1-Sherlock',
+    component: ComponentCreator('/blog/CrownJewel1-Sherlock', '975'),
     exact: true
   },
   {
@@ -94,7 +99,7 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', '33b'),
+    component: ComponentCreator('/blog/page/2', 'ca4'),
     exact: true
   },
   {
@@ -124,7 +129,7 @@ export default [
   },
   {
     path: '/blog/tags/active-directory',
-    component: ComponentCreator('/blog/tags/active-directory', 'f6d'),
+    component: ComponentCreator('/blog/tags/active-directory', 'ed4'),
     exact: true
   },
   {
@@ -183,8 +188,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/digital-forensics',
+    component: ComponentCreator('/blog/tags/digital-forensics', '528'),
+    exact: true
+  },
+  {
     path: '/blog/tags/entra-id',
     component: ComponentCreator('/blog/tags/entra-id', 'b1b'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/eric-zimmerman-tools',
+    component: ComponentCreator('/blog/tags/eric-zimmerman-tools', '67c'),
     exact: true
   },
   {
@@ -224,7 +239,7 @@ export default [
   },
   {
     path: '/blog/tags/hackthebox',
-    component: ComponentCreator('/blog/tags/hackthebox', 'e67'),
+    component: ComponentCreator('/blog/tags/hackthebox', 'e07'),
     exact: true
   },
   {
@@ -284,7 +299,7 @@ export default [
   },
   {
     path: '/blog/tags/log-analysis',
-    component: ComponentCreator('/blog/tags/log-analysis', '20c'),
+    component: ComponentCreator('/blog/tags/log-analysis', '5d0'),
     exact: true
   },
   {
@@ -295,6 +310,11 @@ export default [
   {
     path: '/blog/tags/memory-forensics',
     component: ComponentCreator('/blog/tags/memory-forensics', '717'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/mft-analysis',
+    component: ComponentCreator('/blog/tags/mft-analysis', 'e22'),
     exact: true
   },
   {
@@ -315,6 +335,11 @@ export default [
   {
     path: '/blog/tags/network-traffic-analysis',
     component: ComponentCreator('/blog/tags/network-traffic-analysis', '99e'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/ntds',
+    component: ComponentCreator('/blog/tags/ntds', 'abc'),
     exact: true
   },
   {
@@ -388,6 +413,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/volume-shadow-copy',
+    component: ComponentCreator('/blog/tags/volume-shadow-copy', 'cc7'),
+    exact: true
+  },
+  {
     path: '/blog/tags/website',
     component: ComponentCreator('/blog/tags/website', '3b9'),
     exact: true
@@ -395,6 +425,11 @@ export default [
   {
     path: '/blog/tags/welcome',
     component: ComponentCreator('/blog/tags/welcome', '34c'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/windows-forensics',
+    component: ComponentCreator('/blog/tags/windows-forensics', 'ac3'),
     exact: true
   },
   {

@@ -49,13 +49,16 @@
     },
     "content": "content---about-f-22-13e"
   },
-  "/blog-729": {
+  "/blog-6df": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogdd-5-132"
+      },
       {
         "content": "content---blog-197-5de"
       },
@@ -82,9 +85,6 @@
       },
       {
         "content": "content---blogeb-8-e95"
-      },
-      {
-        "content": "content---blogd-3-f-39c"
       }
     ],
     "__props": "__props---blogc-15-573"
@@ -128,6 +128,17 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-campfire-2-sherlock-426-732"
+  },
+  "/blog/CrownJewel1-Sherlock-975": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-crown-jewel-1-sherlock-261-ca1"
   },
   "/blog/Kerberoasting-Explained-d95": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -184,13 +195,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-noxious-htb-sherlocksb-88-928"
   },
-  "/blog/page/2-33b": {
+  "/blog/page/2-ca4": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-page-2-d-3-f-1b4"
+      },
       {
         "content": "content---blog-page-23-fa-042"
       },
@@ -252,13 +266,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-tags-3-a-2-fa2"
   },
-  "/blog/tags/active-directory-f6d": {
+  "/blog/tags/active-directory-ed4": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogdd-5-132"
+      },
       {
         "content": "content---blog-197-5de"
       },
@@ -331,7 +348,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "content---blog-page-2-d-3-f-1b4"
       },
       {
         "content": "content---blog-page-23-fa-042"
@@ -353,7 +370,7 @@
         "content": "content---blog-882-53a"
       },
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "content---blog-page-2-d-3-f-1b4"
       }
     ],
     "__props": "__props---blog-tags-certificationsa-62-1ab"
@@ -405,7 +422,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "content---blog-page-2-d-3-f-1b4"
       },
       {
         "content": "content---blog-page-23-fa-042"
@@ -426,6 +443,19 @@
     ],
     "__props": "__props---blog-tags-detection-84-f-4c7"
   },
+  "/blog/tags/digital-forensics-528": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogdd-5-132"
+      }
+    ],
+    "__props": "__props---blog-tags-digital-forensicscb-9-b54"
+  },
   "/blog/tags/entra-id-b1b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -438,6 +468,19 @@
       }
     ],
     "__props": "__props---blog-tags-entra-idc-4-a-4bb"
+  },
+  "/blog/tags/eric-zimmerman-tools-67c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogdd-5-132"
+      }
+    ],
+    "__props": "__props---blog-tags-eric-zimmerman-tools-32-b-792"
   },
   "/blog/tags/event-logs-66e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -489,7 +532,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "content---blog-page-2-d-3-f-1b4"
       }
     ],
     "__props": "__props---blog-tags-google-820-349"
@@ -528,18 +571,21 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "content---blog-page-2-d-3-f-1b4"
       }
     ],
     "__props": "__props---blog-tags-hack-the-box-9-ba-e4a"
   },
-  "/blog/tags/hackthebox-e67": {
+  "/blog/tags/hackthebox-e07": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogdd-5-132"
+      },
       {
         "content": "content---blog-197-5de"
       },
@@ -728,13 +774,16 @@
     ],
     "__props": "__props---blog-tags-llmnree-0-131"
   },
-  "/blog/tags/log-analysis-20c": {
+  "/blog/tags/log-analysis-5d0": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogdd-5-132"
+      },
       {
         "content": "content---blog-197-5de"
       },
@@ -770,6 +819,19 @@
     ],
     "__props": "__props---blog-tags-memory-forensicsda-7-57f"
   },
+  "/blog/tags/mft-analysis-e22": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogdd-5-132"
+      }
+    ],
+    "__props": "__props---blog-tags-mft-analysisf-16-249"
+  },
   "/blog/tags/microsoft-82f": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -778,7 +840,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogd-3-f-39c"
+        "content": "content---blog-page-2-d-3-f-1b4"
       },
       {
         "content": "content---blog-page-23-fa-042"
@@ -824,6 +886,19 @@
       }
     ],
     "__props": "__props---blog-tags-network-traffic-analysis-065-bff"
+  },
+  "/blog/tags/ntds-abc": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogdd-5-132"
+      }
+    ],
+    "__props": "__props---blog-tags-ntds-3-bb-1a6"
   },
   "/blog/tags/ntlm-b18": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -1010,6 +1085,19 @@
     ],
     "__props": "__props---blog-tags-volatilityc-75-a5c"
   },
+  "/blog/tags/volume-shadow-copy-cc7": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogdd-5-132"
+      }
+    ],
+    "__props": "__props---blog-tags-volume-shadow-copyc-21-87b"
+  },
   "/blog/tags/website-3b9": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -1035,6 +1123,19 @@
       }
     ],
     "__props": "__props---blog-tags-welcome-436-c4b"
+  },
+  "/blog/tags/windows-forensics-ac3": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogdd-5-132"
+      }
+    ],
+    "__props": "__props---blog-tags-windows-forensics-3-eb-c17"
   },
   "/blog/tags/wireshark-76a": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",

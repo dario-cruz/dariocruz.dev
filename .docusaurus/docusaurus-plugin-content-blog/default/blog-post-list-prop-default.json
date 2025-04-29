@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "CrownJewel 1 (HTB-Sherlock)",
+      "permalink": "/blog/CrownJewel1-Sherlock",
+      "unlisted": false,
+      "date": "2025-04-26T00:00:00.000Z"
+    },
+    {
       "title": "Campfire 2 (HTB-Sherlock)",
       "permalink": "/blog/Campfire2-Sherlock",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/blog/NetTrafficAnalysis",
       "unlisted": false,
       "date": "2025-02-03T00:00:00.000Z"
-    },
-    {
-      "title": "Kerberoasting: What You Need To Know",
-      "permalink": "/blog/Kerberoasting-Explained",
-      "unlisted": false,
-      "date": "2024-12-05T00:00:00.000Z"
     }
   ]
 }
