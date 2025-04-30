@@ -180,3 +180,23 @@ After conversion I opened up the file with Time Line Explorer and filtered for t
 From the image above you can see that the `SYSTEM` file is found in the directory, also we can see that the file size information is present in bytes. The complete flag being **`SYSTEM, 17563648`**.
 
 ![Task 7 Flag](img/CrownJewel%201%20_HTB-Sherlock_-1745848309201.webp)
+
+## 🔍 Key Takeaways
+
+- 🧰 **Leveraging Eric Zimmerman's Tools for Deep Analysis**  
+  Utilizing tools like `EvtxECmd` and `MFTECmd` allowed for efficient parsing of `.evtx` logs and the `$MFT` file. Coupled with `Timeline Explorer`, this setup provided a streamlined approach to sifting through vast amounts of data.
+
+- 🕵️ **Identifying Service Start Events**  
+  Filtering the `SYSTEM.evtx` log for Event ID `7036` was instrumental in pinpointing when the Volume Shadow Copy Service entered the running state—a critical indicator of potential malicious activity.
+
+- 📁 **Uncovering Suspicious File Paths**  
+  Analysis of the `$MFT` revealed the creation of `ntds.dit` in an unusual directory: `C:\Users\Administrator\Documents\backup_sync_Dc\`. Such deviations from standard file locations can be indicative of unauthorized actions.
+
+- 🕒 **Correlating Timestamps for Event Sequencing**  
+  By examining the creation times of key files, a timeline of the attack was established, providing clarity on the sequence of malicious events.
+
+- 🧾 **Detecting Registry Hive Exfiltration**  
+  The presence of the `SYSTEM` registry hive alongside the dumped `ntds.dit` file highlighted the attacker's intent to extract comprehensive system information, emphasizing the need to monitor for such activities.
+
+- 🔐 **Understanding the Role of Built-in Utilities in Attacks**  
+  The misuse of legitimate Windows utilities, like `vssadmin`, underscores the importance of monitoring and controlling the use of such tools within an environment.
