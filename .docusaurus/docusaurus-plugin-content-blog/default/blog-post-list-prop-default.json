@@ -2,6 +2,12 @@
   "title": "All posts",
   "items": [
     {
+      "title": "CrownJewel 2 (HTB-Sherlock)",
+      "permalink": "/blog/CrownJewel2-Sherlock",
+      "unlisted": false,
+      "date": "2025-04-30T00:00:00.000Z"
+    },
+    {
       "title": "CrownJewel 1 (HTB-Sherlock)",
       "permalink": "/blog/CrownJewel1-Sherlock",
       "unlisted": false,

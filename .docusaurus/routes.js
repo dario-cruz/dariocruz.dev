@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '6df'),
+    component: ComponentCreator('/blog', 'c95'),
     exact: true
   },
   {
@@ -70,6 +70,11 @@ export default [
   {
     path: '/blog/CrownJewel1-Sherlock',
     component: ComponentCreator('/blog/CrownJewel1-Sherlock', '975'),
+    exact: true
+  },
+  {
+    path: '/blog/CrownJewel2-Sherlock',
+    component: ComponentCreator('/blog/CrownJewel2-Sherlock', 'c54'),
     exact: true
   },
   {
@@ -99,7 +104,7 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', 'ca4'),
+    component: ComponentCreator('/blog/page/2', '76e'),
     exact: true
   },
   {
@@ -129,7 +134,7 @@ export default [
   },
   {
     path: '/blog/tags/active-directory',
-    component: ComponentCreator('/blog/tags/active-directory', 'ed4'),
+    component: ComponentCreator('/blog/tags/active-directory', '169'),
     exact: true
   },
   {
@@ -188,8 +193,13 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/dfir',
+    component: ComponentCreator('/blog/tags/dfir', 'd68'),
+    exact: true
+  },
+  {
     path: '/blog/tags/digital-forensics',
-    component: ComponentCreator('/blog/tags/digital-forensics', '528'),
+    component: ComponentCreator('/blog/tags/digital-forensics', '80e'),
     exact: true
   },
   {
@@ -199,7 +209,12 @@ export default [
   },
   {
     path: '/blog/tags/eric-zimmerman-tools',
-    component: ComponentCreator('/blog/tags/eric-zimmerman-tools', '67c'),
+    component: ComponentCreator('/blog/tags/eric-zimmerman-tools', '9b2'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/esent',
+    component: ComponentCreator('/blog/tags/esent', 'b1e'),
     exact: true
   },
   {
@@ -210,6 +225,11 @@ export default [
   {
     path: '/blog/tags/flare-vm',
     component: ComponentCreator('/blog/tags/flare-vm', 'efa'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/forensic-tools',
+    component: ComponentCreator('/blog/tags/forensic-tools', 'cf7'),
     exact: true
   },
   {
@@ -239,7 +259,7 @@ export default [
   },
   {
     path: '/blog/tags/hackthebox',
-    component: ComponentCreator('/blog/tags/hackthebox', 'e07'),
+    component: ComponentCreator('/blog/tags/hackthebox', '479'),
     exact: true
   },
   {
@@ -299,7 +319,7 @@ export default [
   },
   {
     path: '/blog/tags/log-analysis',
-    component: ComponentCreator('/blog/tags/log-analysis', '5d0'),
+    component: ComponentCreator('/blog/tags/log-analysis', '60b'),
     exact: true
   },
   {
@@ -340,6 +360,11 @@ export default [
   {
     path: '/blog/tags/ntds',
     component: ComponentCreator('/blog/tags/ntds', 'abc'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/ntds-dump',
+    component: ComponentCreator('/blog/tags/ntds-dump', '67f'),
     exact: true
   },
   {
@@ -400,6 +425,11 @@ export default [
   {
     path: '/blog/tags/tcpdump',
     component: ComponentCreator('/blog/tags/tcpdump', '575'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/timeline-explorer',
+    component: ComponentCreator('/blog/tags/timeline-explorer', '912'),
     exact: true
   },
   {
