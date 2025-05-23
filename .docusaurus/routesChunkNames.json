@@ -1255,6 +1255,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-the-journey-so-far-17-e-646"
   },
+  "/certifications/-0e5": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---about-a-74-c06"
+    },
+    "content": "content---certifications-2-b-2-351"
+  },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
@@ -1269,26 +1276,74 @@
     },
     "config": "config---nothing-5-e-9-59c"
   },
-  "/docs-836": {
+  "/docs-3a3": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-385": {
+  "/docs-953": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-cb9": {
+  "/docs/tags-fce": {
+    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
+    "__props": "__props---docs-tags-898-65c"
+  },
+  "/docs/tags/forensics-1e9": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-forensics-971-9ca"
+  },
+  "/docs/tags/isolated-e0d": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-isolated-5-a-2-cb7"
+  },
+  "/docs/tags/lab-3e4": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-lab-3-f-4-887"
+  },
+  "/docs/tags/linux-845": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-linuxda-8-abb"
+  },
+  "/docs/tags/malware-analysis-e7c": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-malware-analysis-225-504"
+  },
+  "/docs/tags/malware-research-e37": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-malware-research-827-0c4"
+  },
+  "/docs/tags/vm-ca2": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-vm-012-f4c"
+  },
+  "/docs/tags/windows-439": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-windows-4-f-3-1f0"
+  },
+  "/docs-4bd": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Home Lab/homelab01-22f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-home-lab-homelab-01593-505"
   },
+  "/docs/Home Lab/VLAN-Implementation-b19": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-home-lab-vlan-implementation-7-af-fef"
+  },
   "/docs/intro-9bf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-introfed-f91"
+  },
+  "/docs/Malware Analysis/flarevm-setup-4ba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-malware-analysis-flare-vm-setup-688-8fe"
+  },
+  "/docs/Malware Analysis/remnux-setup-62b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-malware-analysis-re-mnux-setup-2-e-8-7f3"
   },
   "/docs/Qualys Vulnerability Management/Introduction-ecb": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1318,11 +1373,11 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-qualys-vulnerability-management-vulnerabile-windows-1058-e-03d"
   },
-  "/-fd5": {
+  "/-2bc": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
       "plugin": "plugin---about-a-74-c06"
     },
-    "content": "content---e-7-c-0a5"
+    "content": "content---f-39-267"
   }
 }

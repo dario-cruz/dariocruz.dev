@@ -113,6 +113,7 @@ const config = {
             position: 'left',
             label: 'Projects',
           },
+          // {to: '/certifications', label: 'Certifications', position: 'left'},
           {to: '/about', label: 'About', position: 'left'},
           {
             href: 'https://www.linkedin.com/in/dariocru/',

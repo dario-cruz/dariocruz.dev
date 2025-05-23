@@ -473,6 +473,11 @@ export default [
     exact: true
   },
   {
+    path: '/certifications/',
+    component: ComponentCreator('/certifications/', '0e5'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
@@ -484,15 +489,60 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '836'),
+    component: ComponentCreator('/docs', '3a3'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '385'),
+        component: ComponentCreator('/docs', '953'),
         routes: [
           {
+            path: '/docs/tags',
+            component: ComponentCreator('/docs/tags', 'fce'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/forensics',
+            component: ComponentCreator('/docs/tags/forensics', '1e9'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/isolated',
+            component: ComponentCreator('/docs/tags/isolated', 'e0d'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/lab',
+            component: ComponentCreator('/docs/tags/lab', '3e4'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/linux',
+            component: ComponentCreator('/docs/tags/linux', '845'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/malware-analysis',
+            component: ComponentCreator('/docs/tags/malware-analysis', 'e7c'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/malware-research',
+            component: ComponentCreator('/docs/tags/malware-research', 'e37'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/vm',
+            component: ComponentCreator('/docs/tags/vm', 'ca2'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/windows',
+            component: ComponentCreator('/docs/tags/windows', '439'),
+            exact: true
+          },
+          {
             path: '/docs',
-            component: ComponentCreator('/docs', 'cb9'),
+            component: ComponentCreator('/docs', '4bd'),
             routes: [
               {
                 path: '/docs/Home Lab/homelab01',
@@ -501,8 +551,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Home Lab/VLAN-Implementation',
+                component: ComponentCreator('/docs/Home Lab/VLAN-Implementation', 'b19'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '9bf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Malware Analysis/flarevm-setup',
+                component: ComponentCreator('/docs/Malware Analysis/flarevm-setup', '4ba'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Malware Analysis/remnux-setup',
+                component: ComponentCreator('/docs/Malware Analysis/remnux-setup', '62b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -556,7 +624,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'fd5'),
+    component: ComponentCreator('/', '2bc'),
     exact: true
   },
   {
