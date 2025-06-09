@@ -49,13 +49,16 @@
     },
     "content": "content---about-f-22-13e"
   },
-  "/blog-c95": {
+  "/blog-3c2": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-8-fd-117"
+      },
       {
         "content": "content---blogf-77-364"
       },
@@ -82,9 +85,6 @@
       },
       {
         "content": "content---blogd-45-981"
-      },
-      {
-        "content": "content---blog-882-53a"
       }
     ],
     "__props": "__props---blogc-15-573"
@@ -149,7 +149,7 @@
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2025-04-30-crown-jewel-025-b-6-e11"
+    "content": "content---blog-crown-jewel-2-sherlock-5-b-6-a92"
   },
   "/blog/Kerberoasting-Explained-d95": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -206,7 +206,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-noxious-htb-sherlocksb-88-928"
   },
-  "/blog/page/2-76e": {
+  "/blog/page/2-a99": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -214,7 +214,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogeb-8-e95"
+        "content": "content---blog-page-2882-778"
+      },
+      {
+        "content": "content---blog-page-2-eb-8-060"
       },
       {
         "content": "content---blog-page-2-d-3-f-1b4"
@@ -384,7 +387,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-882-53a"
+        "content": "content---blog-page-2882-778"
       },
       {
         "content": "content---blog-page-2-d-3-f-1b4"
@@ -426,7 +429,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-882-53a"
+        "content": "content---blog-page-2882-778"
       }
     ],
     "__props": "__props---blog-tags-comptiaf-6-d-320"
@@ -502,13 +505,16 @@
     ],
     "__props": "__props---blog-tags-entra-idc-4-a-4bb"
   },
-  "/blog/tags/eric-zimmerman-tools-9b2": {
+  "/blog/tags/eric-zimmerman-tools-c81": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-8-fd-117"
+      },
       {
         "content": "content---blogf-77-364"
       },
@@ -546,6 +552,19 @@
       }
     ],
     "__props": "__props---blog-tags-event-logs-04-a-336"
+  },
+  "/blog/tags/evtx-e-cmd-61f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-8-fd-117"
+      }
+    ],
+    "__props": "__props---blog-tags-evtx-e-cmd-21-a-15f"
   },
   "/blog/tags/flare-vm-efa": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -638,13 +657,16 @@
     ],
     "__props": "__props---blog-tags-hack-the-box-9-ba-e4a"
   },
-  "/blog/tags/hackthebox-479": {
+  "/blog/tags/hackthebox-776": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-8-fd-117"
+      },
       {
         "content": "content---blogf-77-364"
       },
@@ -667,7 +689,7 @@
         "content": "content---blogd-45-981"
       },
       {
-        "content": "content---blogeb-8-e95"
+        "content": "content---blog-page-2-eb-8-060"
       }
     ],
     "__props": "__props---blog-tags-hacktheboxf-81-90e"
@@ -732,7 +754,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogeb-8-e95"
+        "content": "content---blog-page-2-eb-8-060"
       }
     ],
     "__props": "__props---blog-tags-incident-investigationa-0-b-c70"
@@ -751,7 +773,7 @@
         "content": "content---blogd-45-981"
       },
       {
-        "content": "content---blogeb-8-e95"
+        "content": "content---blog-page-2-eb-8-060"
       }
     ],
     "__props": "__props---blog-tags-incident-response-4-b-2-c11"
@@ -808,7 +830,7 @@
         "content": "content---blogd-45-981"
       },
       {
-        "content": "content---blogeb-8-e95"
+        "content": "content---blog-page-2-eb-8-060"
       }
     ],
     "__props": "__props---blog-tags-labs-5-dc-90b"
@@ -839,13 +861,16 @@
     ],
     "__props": "__props---blog-tags-llmnree-0-131"
   },
-  "/blog/tags/log-analysis-60b": {
+  "/blog/tags/log-analysis-3b6": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-8-fd-117"
+      },
       {
         "content": "content---blogf-77-364"
       },
@@ -937,7 +962,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogeb-8-e95"
+        "content": "content---blog-page-2-eb-8-060"
       }
     ],
     "__props": "__props---blog-tags-net-bios-05-a-09b"
@@ -992,7 +1017,7 @@
         "content": "content---blogd-45-981"
       },
       {
-        "content": "content---blogeb-8-e95"
+        "content": "content---blog-page-2-eb-8-060"
       }
     ],
     "__props": "__props---blog-tags-ntlm-14-d-b8b"
@@ -1018,7 +1043,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogeb-8-e95"
+        "content": "content---blog-page-2-eb-8-060"
       }
     ],
     "__props": "__props---blog-tags-pass-the-hashdc-1-3ed"
@@ -1109,10 +1134,23 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-882-53a"
+        "content": "content---blog-page-2882-778"
       }
     ],
     "__props": "__props---blog-tags-security-plusf-5-e-156"
+  },
+  "/blog/tags/sherlocks-cbc": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-8-fd-117"
+      }
+    ],
+    "__props": "__props---blog-tags-sherlocks-1-fc-91a"
   },
   "/blog/tags/strings-0b3": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -1127,6 +1165,19 @@
     ],
     "__props": "__props---blog-tags-stringsbc-2-b80"
   },
+  "/blog/tags/sysmon-f78": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-8-fd-117"
+      }
+    ],
+    "__props": "__props---blog-tags-sysmon-459-885"
+  },
   "/blog/tags/tcpdump-575": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -1140,13 +1191,29 @@
     ],
     "__props": "__props---blog-tags-tcpdumpbe-5-a83"
   },
-  "/blog/tags/timeline-explorer-912": {
+  "/blog/tags/threat-detection-be1": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-8-fd-117"
+      }
+    ],
+    "__props": "__props---blog-tags-threat-detection-8-ea-d93"
+  },
+  "/blog/tags/timeline-explorer-6cc": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-8-fd-117"
+      },
       {
         "content": "content---blogf-77-364"
       }
@@ -1255,6 +1322,17 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-the-journey-so-far-17-e-646"
   },
+  "/blog/Unit42-Sherlock-2b0": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-unit-42-sherlock-580-598"
+  },
   "/certifications/-0e5": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
@@ -1339,11 +1417,11 @@
   },
   "/docs/Malware Analysis/flarevm-setup-4ba": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-malware-analysis-flare-vm-setup-688-8fe"
+    "content": "content---docs-malware-analysis-flarevm-setup-688-6e3"
   },
   "/docs/Malware Analysis/remnux-setup-62b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-malware-analysis-re-mnux-setup-2-e-8-7f3"
+    "content": "content---docs-malware-analysis-remnux-setup-2-e-8-69b"
   },
   "/docs/Qualys Vulnerability Management/Introduction-ecb": {
     "__comp": "__comp---theme-doc-item-178-a40",

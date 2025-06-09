@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'c95'),
+    component: ComponentCreator('/blog', '3c2'),
     exact: true
   },
   {
@@ -104,7 +104,7 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', '76e'),
+    component: ComponentCreator('/blog/page/2', 'a99'),
     exact: true
   },
   {
@@ -209,7 +209,7 @@ export default [
   },
   {
     path: '/blog/tags/eric-zimmerman-tools',
-    component: ComponentCreator('/blog/tags/eric-zimmerman-tools', '9b2'),
+    component: ComponentCreator('/blog/tags/eric-zimmerman-tools', 'c81'),
     exact: true
   },
   {
@@ -220,6 +220,11 @@ export default [
   {
     path: '/blog/tags/event-logs',
     component: ComponentCreator('/blog/tags/event-logs', '66e'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/evtx-e-cmd',
+    component: ComponentCreator('/blog/tags/evtx-e-cmd', '61f'),
     exact: true
   },
   {
@@ -259,7 +264,7 @@ export default [
   },
   {
     path: '/blog/tags/hackthebox',
-    component: ComponentCreator('/blog/tags/hackthebox', '479'),
+    component: ComponentCreator('/blog/tags/hackthebox', '776'),
     exact: true
   },
   {
@@ -319,7 +324,7 @@ export default [
   },
   {
     path: '/blog/tags/log-analysis',
-    component: ComponentCreator('/blog/tags/log-analysis', '60b'),
+    component: ComponentCreator('/blog/tags/log-analysis', '3b6'),
     exact: true
   },
   {
@@ -418,8 +423,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/sherlocks',
+    component: ComponentCreator('/blog/tags/sherlocks', 'cbc'),
+    exact: true
+  },
+  {
     path: '/blog/tags/strings',
     component: ComponentCreator('/blog/tags/strings', '0b3'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/sysmon',
+    component: ComponentCreator('/blog/tags/sysmon', 'f78'),
     exact: true
   },
   {
@@ -428,8 +443,13 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/threat-detection',
+    component: ComponentCreator('/blog/tags/threat-detection', 'be1'),
+    exact: true
+  },
+  {
     path: '/blog/tags/timeline-explorer',
-    component: ComponentCreator('/blog/tags/timeline-explorer', '912'),
+    component: ComponentCreator('/blog/tags/timeline-explorer', '6cc'),
     exact: true
   },
   {
@@ -470,6 +490,11 @@ export default [
   {
     path: '/blog/The Journey So Far',
     component: ComponentCreator('/blog/The Journey So Far', '7d2'),
+    exact: true
+  },
+  {
+    path: '/blog/Unit42-Sherlock',
+    component: ComponentCreator('/blog/Unit42-Sherlock', '2b0'),
     exact: true
   },
   {

@@ -6,5 +6,3 @@ draft: true
 ---
 
 ## Certifications
-
-erasd
