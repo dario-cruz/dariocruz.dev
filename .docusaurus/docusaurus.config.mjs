@@ -110,9 +110,9 @@ export default {
     "imageZoom": {
       "selector": ".markdown img",
       "options": {
-        "margin": 24,
+        "margin": 0,
         "background": "#1b1b1d",
-        "scrollOffset": 0
+        "scrollOffset": 40
       }
     },
     "footer": {
@@ -343,6 +343,14 @@ export default {
   },
   "baseUrlIssueBanner": true,
   "future": {
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false
+    },
     "experimental_storage": {
       "type": "localStorage",
       "namespace": false

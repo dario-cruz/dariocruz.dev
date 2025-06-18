@@ -128,9 +128,9 @@ const config = {
         // Optional medium-zoom options
         // see: https://www.npmjs.com/package/medium-zoom#options
         options: {
-          margin: 24,
+          margin: 0,
           background: '#1b1b1d',
-          scrollOffset: 0,
+          scrollOffset: 40,
         },
       },
       footer: {
