@@ -41,7 +41,7 @@ export default {
   ],
   "plugins": [
     "plugin-image-zoom",
-    "C:\\Users\\dario\\repos\\dariocruz.dev\\node_modules\\docusaurus-lunr-search\\src\\index.js"
+    "C:\\Users\\Dario\\repos\\dariocruz.dev\\node_modules\\docusaurus-lunr-search\\src\\index.js"
   ],
   "themeConfig": {
     "colorMode": {
