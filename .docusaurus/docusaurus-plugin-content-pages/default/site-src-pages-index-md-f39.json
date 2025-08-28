@@ -2,10 +2,10 @@
   "type": "mdx",
   "permalink": "/",
   "source": "@site/src/pages/index.md",
-  "title": "DarioCruz.dev Tech Portfolio & Blog",
+  "title": "DarioCruz.dev Cybersecurity Portfolio & Blog",
   "description": "The Blog / Portfolio of Cybersecurity & IT Enthusiast Dario Cruz.",
   "frontMatter": {
-    "title": "DarioCruz.dev Tech Portfolio & Blog",
+    "title": "DarioCruz.dev Cybersecurity Portfolio & Blog",
     "description": "The Blog / Portfolio of Cybersecurity & IT Enthusiast Dario Cruz.",
     "keywords": [
       "Tech",

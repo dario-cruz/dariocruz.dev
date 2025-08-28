@@ -29,4 +29,4 @@ Well, yes I am! Thanks for Asking.😁
 - [Google Certified Cybersecurity Professional](https://coursera.org/share/d8103b93a5fd4afde4f79325f3abf4dd) 🎉
 - [CompTIA Security Plus](https://www.credly.com/badges/dd661ec9-5387-43f8-a5e1-3ed4e5df715d/public_url) 🎉
 
-![It's Me Dario](/img/Dario-DarioCruzdev.webp)
+![It's Me Dario](/img/itsmedario.webp)
