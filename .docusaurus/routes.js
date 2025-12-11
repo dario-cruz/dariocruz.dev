@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '3c2'),
+    component: ComponentCreator('/blog', '29a'),
     exact: true
   },
   {
@@ -83,6 +83,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/LearningLinuxArch',
+    component: ComponentCreator('/blog/LearningLinuxArch', '6ec'),
+    exact: true
+  },
+  {
     path: '/blog/Loggy-Sherlock',
     component: ComponentCreator('/blog/Loggy-Sherlock', '040'),
     exact: true
@@ -104,7 +109,7 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', 'a99'),
+    component: ComponentCreator('/blog/page/2', 'ca3'),
     exact: true
   },
   {
@@ -135,6 +140,11 @@ export default [
   {
     path: '/blog/tags/active-directory',
     component: ComponentCreator('/blog/tags/active-directory', '169'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/arch',
+    component: ComponentCreator('/blog/tags/arch', 'c28'),
     exact: true
   },
   {
@@ -228,6 +238,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/fdisk',
+    component: ComponentCreator('/blog/tags/fdisk', '180'),
+    exact: true
+  },
+  {
     path: '/blog/tags/flare-vm',
     component: ComponentCreator('/blog/tags/flare-vm', 'efa'),
     exact: true
@@ -255,6 +270,11 @@ export default [
   {
     path: '/blog/tags/grep',
     component: ComponentCreator('/blog/tags/grep', '63f'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/grub',
+    component: ComponentCreator('/blog/tags/grub', '73a'),
     exact: true
   },
   {
@@ -315,6 +335,11 @@ export default [
   {
     path: '/blog/tags/lifecycle',
     component: ComponentCreator('/blog/tags/lifecycle', '16f'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/linux',
+    component: ComponentCreator('/blog/tags/linux', '7c3'),
     exact: true
   },
   {
@@ -440,6 +465,11 @@ export default [
   {
     path: '/blog/tags/tcpdump',
     component: ComponentCreator('/blog/tags/tcpdump', '575'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/terminalh',
+    component: ComponentCreator('/blog/tags/terminalh', 'b77'),
     exact: true
   },
   {

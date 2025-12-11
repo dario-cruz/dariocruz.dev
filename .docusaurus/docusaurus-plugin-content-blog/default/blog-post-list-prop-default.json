@@ -2,6 +2,12 @@
   "title": "All posts",
   "items": [
     {
+      "title": "Learning Linux with Arch",
+      "permalink": "/blog/LearningLinuxArch",
+      "unlisted": false,
+      "date": "2025-12-11T00:00:00.000Z"
+    },
+    {
       "title": "Unit42 (HTB-Sherlock)",
       "permalink": "/blog/Unit42-Sherlock",
       "unlisted": false,

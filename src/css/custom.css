@@ -67,3 +67,9 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.vcenter {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}

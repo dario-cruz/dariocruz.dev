@@ -49,13 +49,16 @@
     },
     "content": "content---about-f-22-13e"
   },
-  "/blog-3c2": {
+  "/blog-29a": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-01-a-212"
+      },
       {
         "content": "content---blog-8-fd-117"
       },
@@ -82,9 +85,6 @@
       },
       {
         "content": "content---blog-15-f-667"
-      },
-      {
-        "content": "content---blogd-45-981"
       }
     ],
     "__props": "__props---blogc-15-573"
@@ -162,6 +162,17 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-kerberoasting-explained-730-f9f"
   },
+  "/blog/LearningLinuxArch-6ec": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-2025-12-11-learning-linux-archcca-839"
+  },
   "/blog/Loggy-Sherlock-040": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -206,13 +217,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-noxious-htb-sherlocksb-88-928"
   },
-  "/blog/page/2-a99": {
+  "/blog/page/2-ca3": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogd-45-981"
+      },
       {
         "content": "content---blog-page-2882-778"
       },
@@ -307,6 +321,19 @@
       }
     ],
     "__props": "__props---blog-tags-active-directorye-44-0a4"
+  },
+  "/blog/tags/arch-c28": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-01-a-212"
+      }
+    ],
+    "__props": "__props---blog-tags-arch-350-ee8"
   },
   "/blog/tags/as-rep-1b4": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -566,6 +593,19 @@
     ],
     "__props": "__props---blog-tags-evtx-e-cmd-21-a-15f"
   },
+  "/blog/tags/fdisk-180": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-01-a-212"
+      }
+    ],
+    "__props": "__props---blog-tags-fdiskc-85-4dc"
+  },
   "/blog/tags/flare-vm-efa": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -643,6 +683,19 @@
       }
     ],
     "__props": "__props---blog-tags-grep-8-c-0-085"
+  },
+  "/blog/tags/grub-73a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-01-a-212"
+      }
+    ],
+    "__props": "__props---blog-tags-grub-6-c-6-e9e"
   },
   "/blog/tags/hack-the-box-e41": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -847,6 +900,19 @@
       }
     ],
     "__props": "__props---blog-tags-lifecycle-091-d2d"
+  },
+  "/blog/tags/linux-7c3": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-01-a-212"
+      }
+    ],
+    "__props": "__props---blog-tags-linux-5-da-7d7"
   },
   "/blog/tags/llmnr-dec": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -1190,6 +1256,19 @@
       }
     ],
     "__props": "__props---blog-tags-tcpdumpbe-5-a83"
+  },
+  "/blog/tags/terminalh-b77": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-01-a-212"
+      }
+    ],
+    "__props": "__props---blog-tags-terminalh-700-40d"
   },
   "/blog/tags/threat-detection-be1": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
