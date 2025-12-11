@@ -468,8 +468,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/terminalh',
-    component: ComponentCreator('/blog/tags/terminalh', 'b77'),
+    path: '/blog/tags/terminal',
+    component: ComponentCreator('/blog/tags/terminal', '5a2'),
     exact: true
   },
   {

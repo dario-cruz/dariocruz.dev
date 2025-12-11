@@ -2,7 +2,7 @@
 slug: LearningLinuxArch
 title: Learning Linux with Arch
 authors: [dcruz]
-tags: [Linux, Arch, Grub, fdisk, terminalh,]
+tags: [Linux, Arch, Grub, fdisk, terminal,]
 enableComments: true
 toc_min_heading_level: 2
 toc_max_heading_level: 6
@@ -17,7 +17,7 @@ I know that there has been some time between my previous post and this one. In r
 
 ## Why Linux & Why Arch
 
-Linux is the OS of choice for all tech infrastructure, you would be hard pressed to find any organization that does not use Linux in some way to offer websites and/or services. Linux is king when it comes to the back-end of most of the internet as well.
+Linux is the OS of choice for all tech infrastructure. You would be hard pressed to find any organization that does not use Linux in some way to offer websites and/or services. Linux is king when it comes to the back-end of most of the internet as well.
 
 ### Arch Linux
 
@@ -45,13 +45,13 @@ The first steps in doing this are to verify the boot mode which can be UEFI or p
 
 ![Filesystem 01](img/Linux%20Deep%20Dive%20-%20Learning%20Linux%20via%20Arch-1764706094210.webp)
 
-As you can see I ran the command `cat /sys/firmare/efi/fw_platform_size` and as you can see from the output of the terminal in the image above, this returned on results. According to the Arch wiki if no file or directory is found from catting this directory, then most likely  we are running in BIOS mode.
+As you can see I ran the command `cat /sys/firmare/efi/fw_platform_size` and as you can see from the output of the terminal in the image above, this returned no results. According to the Arch wiki if no file or directory is found from catting this directory, then most likely  we are running in BIOS mode.
 
 Next I tested network connectivity, doing an `ip link` to ensure that my virtual ethernet link was up, `ifconfig` to check and see if we successfully obtained network configuration via DHCP, and also completed a `ping ping.archlinux.org` to verify that we can access/traverse the outside internet.
 
 ![Filesystem 02](img/Linux%20Deep%20Dive%20-%20Learning%20Linux%20via%20Arch-1764707766286.webp)
 
-Having out network connectivity confirmed, lets update the time so that we have no networking issues related to time sync to do this I ran the command, `timedatectl`.
+Having our network connectivity confirmed, let's update the time so that we have no networking issues related to time sync to do this I ran the command, `timedatectl`.
 
 ![Filesystem 03](img/Linux%20Deep%20Dive%20-%20Learning%20Linux%20via%20Arch-1764708058434.webp)
 
@@ -63,7 +63,7 @@ Lets take a look at the disks that we have to work with. In Linux we do this via
 
 We can see from the output that our main QEMU disk is present and is reporting the correct size, being 70gb.
 
-Our VM will be using the MBR and the regular BIOS for booting so the partitions on the VM will simpler then if we were to use UEFI, which needs it's own dedicated `/boot` partition.
+Our VM will be using the MBR and the regular BIOS for booting so the partitions on the VM will be simpler than if we were to use UEFI, which needs its own dedicated `/boot` partition.
 
 For our use case we will be creating the following:
 - 1x SWAP Partition, Size 10gb.
@@ -91,7 +91,7 @@ And now  lets create the root partition.  Using the fdisk option `n`, we can cre
 
 Selecting P for the primary I created the primary partition for Arch to be installed. I gave the primary partition 60gb of storage.  
 
-Then  created second primary partition this one being 10gb in size.
+Then I created second primary partition, this one being 10gb in size.
 
 ![Partitioning 06](img/Linux%20Deep%20Dive%20-%20Learning%20Linux%20via%20Arch-1764710241448.webp)
 
@@ -111,7 +111,7 @@ The now, before we exit the fdisk utility, we need to apply the changes that we 
 
 #### Formatting
 
-Now, with our partition table and partitions set, we need to format them in preparation of OS install.
+Now, with our partition table and partitions set, we need to format them in preparation for the OS installation.
 
 `/dev/sda1` is our root file system for Arch, thus it will need to be formatted as ext4.
 `/dev/sda2` is our swap partition and will need to be formatted as swap.
@@ -137,7 +137,7 @@ With that, we now have our file system created and ready for the OS install.
 
 ### Mirrors & Packages
 
-I adjusted the mirrors in `/etc/pacman.d/mirrorlists` moving all of the *United States* based mirrors to the top of the list as that is where I am currently located. Since these a geographically closer to me, we should receive good throughput network wise as there is less network traversal taking place.
+I adjusted the mirrors in `/etc/pacman.d/mirrorlists` moving all of the *United States* based mirrors to the top of the list as that is where I am currently located. Since these are geographically closer to me, we should receive good throughput network wise as there is less network traversal taking place.
 
 ![Pacakges 01](img/Linux%20Deep%20Dive%20-%20Learning%20Linux%20via%20Arch-1765214524353.webp)
 
@@ -187,7 +187,7 @@ pacstrap -K /mnt man-db man-pages texinfo
 
 #### Running `pacstrap`
 
-Running the complete command you can observe that most of the packages strapped correctly but, some error'd out with *"error target not found"*.
+Running the complete command you can observe that most of the packages strapped correctly but, some errored out with *"error target not found"*.
 
 - For the linux-firmware package I had made a typo in the package name.
 - hfsprogs is not available on the arch image according to the matrix found on this [page](https://wiki.archlinux.org/title/File_systems).
@@ -246,7 +246,7 @@ localectl set-locale LANG=en_US.UTF-8
 
 ##### Network Hostname
 
-Time to define the hostname for our Arch install. To accomplish this we need create a file in `/etc/hostname` and add our designated hostname there, inside of that file. I had to find a work around to accomplish this as nano is not installed on our Arch system yet. I made use of the redirects to echo the hostname into the file after creation.
+Time to define the hostname for our Arch install. To accomplish this we need to create a file in `/etc/hostname` and add our designated hostname there, inside of that file. I had to find a work around to accomplish this as nano is not installed on our Arch system yet. I made use of the redirects to echo the hostname into the file after creation.
 
 ![Hostname 01](img/Linux%20Deep%20Dive%20-%20Learning%20Linux%20via%20Arch-1765234124206.webp)
 
@@ -278,7 +278,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 ##### Network Manager
 
-I will we installing the `networkmanager` tool as well. This is a suite of tools that aid in network connectivity on Linux, Arch included.  Using `pacman` to install and then using `systemctl` to enable the service on our Arch install.
+I will be installing the `networkmanager` tool as well. This is a suite of tools that aid in network connectivity on Linux, Arch included.  Using `pacman` to install and then using `systemctl` to enable the service on our Arch install.
 
 ![Network Manager 01](img/Linux%20Deep%20Dive%20-%20Learning%20Linux%20via%20Arch-1765476114063.webp)
 
@@ -292,8 +292,9 @@ Super simple, just run the `passwd` tool and then enter & confirm the new passwo
 
 ##### Time to Reboot
 
-*`<insert final countdown gif>`*
-And with that we are finished with the base installation of Arch Linux, though we still do not have a GUI/desktop environment installed, we have a basic Linux OS as a base to build off of. In order to confirm our changes and boot into the OS we just setup/configured the only last step is to reboot.
+![final countdown gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnFyNWE3MjJocjBhaW1iM3k2M2kyemxhczNpZ3R3amc4Y2VyOWxyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/izJTd56RgeU4U/giphy.gif)
+
+And with that we are finished with the base installation of Arch Linux, though we still do not have a GUI/desktop environment installed, we have a basic Linux OS as a base on which to build. In order to confirm our changes and boot into the OS we just setup/configured the only last step is to reboot.
 
 I will be following the Arch wiki's recommendation to unmount all of the partitions.
 
