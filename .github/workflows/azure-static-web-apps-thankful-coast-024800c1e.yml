@@ -19,6 +19,21 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Setup Node
+        if: github.event_name == 'push'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - name: Install Dependencies
+        if: github.event_name == 'push'
+        run: npm ci
+      - name: Build Site
+        if: github.event_name == 'push'
+        run: npm run build
+      - name: Submit IndexNow
+        if: github.event_name == 'push'
+        run: npm run indexnow:submit
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -32,20 +47,6 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-      - name: Setup Node
-        if: github.event_name == 'push'
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
-      - name: Install Dependencies
-        if: github.event_name == 'push'
-        run: npm ci
-      - name: Submit IndexNow
-        if: github.event_name == 'push'
-        run: |
-          npm run build
-          npm run indexnow:submit
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
