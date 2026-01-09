@@ -16,23 +16,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Home Lab/VLAN-Implementation",
-              "path": "/docs/Home Lab/VLAN-Implementation",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "intro",
               "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Malware Analysis/FlareVM-Setup",
-              "path": "/docs/Malware Analysis/flarevm-setup",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Malware Analysis/REMnux-Setup",
-              "path": "/docs/Malware Analysis/remnux-setup",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -71,7 +56,11 @@
               "sidebar": "tutorialSidebar"
             }
           ],
-          "draftIds": [],
+          "draftIds": [
+            "Home Lab/VLAN-Implementation",
+            "Malware Analysis/FlareVM-Setup",
+            "Malware Analysis/REMnux-Setup"
+          ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
@@ -88,8 +77,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1767970892224.json",
-        "lunrIndex": "lunr-index-1767970892224.json"
+        "searchDoc": "search-doc-1767972490981.json",
+        "lunrIndex": "lunr-index-1767972490981.json"
       }
     }
   }
