@@ -1,6 +1,9 @@
 ---
 sidebar_position: 1
+title: Projects
 description: Introduction to Projects - DarioCruz.dev
+keywords: [cybersecurity, projects, portfolio, Dario Cruz]
+image: /img/itsmedario.webp
 ---
 
 # Projects

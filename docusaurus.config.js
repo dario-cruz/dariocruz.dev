@@ -49,6 +49,20 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: [
+            '/blog/tags',
+            '/blog/tags/**',
+            '/blog/authors',
+            '/blog/authors/**',
+            '/blog/archive',
+            '/markdown-page',
+            '/nothing',
+          ],
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -70,7 +84,7 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/itsmedario.webp',
       metadata: [
         {name: 'keywords', content: 'cybersecurity, blog, portfolio, dario, cruz, dario cruz, dariocruz'},
         {name: 'twitter:card', content: 'summary_large_image'},

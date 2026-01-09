@@ -1,6 +1,9 @@
 ---
 slug: Site Up and Running
 title: Site Up and Running
+description: Launch post for DarioCruz.dev and what to expect from the blog and portfolio.
+keywords: [Dario Cruz, blog launch, personal website, portfolio, Docusaurus]
+image: /img/itsmedario.webp
 authors: [dcruz]
 tags: [welcome, website, azure, cicd, react]
 enableComments: true # for Gisqus

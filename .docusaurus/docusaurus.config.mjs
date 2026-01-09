@@ -33,6 +33,20 @@ export default {
           "blogSidebarTitle": "All posts",
           "blogSidebarCount": "ALL"
         },
+        "sitemap": {
+          "lastmod": "date",
+          "changefreq": "weekly",
+          "priority": 0.5,
+          "ignorePatterns": [
+            "/blog/tags",
+            "/blog/tags/**",
+            "/blog/authors",
+            "/blog/authors/**",
+            "/blog/archive",
+            "/markdown-page",
+            "/nothing"
+          ]
+        },
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -49,7 +63,7 @@ export default {
       "disableSwitch": true,
       "respectPrefersColorScheme": false
     },
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/itsmedario.webp",
     "metadata": [
       {
         "name": "keywords",
@@ -117,7 +131,7 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2025 DarioCruz.dev. Built with Docusaurus.",
+      "copyright": "Copyright © 2026 DarioCruz.dev. Built with Docusaurus.",
       "links": []
     },
     "prism": {

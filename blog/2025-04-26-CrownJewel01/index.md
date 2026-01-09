@@ -1,6 +1,9 @@
 ---
 slug: CrownJewel1-Sherlock
 title: CrownJewel 1 (HTB-Sherlock)
+description: HTB Sherlock CrownJewel 1 investigation focused on NTDS.dit and DC triage.
+keywords: [Hack The Box, Sherlock, CrownJewel, NTDS, Windows forensics]
+image: /img/itsmedario.webp
 authors: [dcruz]
 tags: [hackthebox, Log Analysis, NTDS, VolumeShadowCopy, MFTAnalysis, Windows Forensics, Digital Forensics, Active Directory, EricZimmermanTools,]
 enableComments: true

@@ -1,6 +1,9 @@
 ---
 slug: Campfire1-Sherlock
 title: Campfire 1 (HTB-Sherlock)
+description: HTB Sherlock Campfire 1 investigation focused on Kerberoasting and log analysis.
+keywords: [Hack The Box, Sherlock, Campfire, Kerberoasting, log analysis]
+image: /img/itsmedario.webp
 authors: [dcruz]
 tags: [hackthebox, Log Analysis, PECmd, Prefetch, Event Logs, Kerberoasting, Kerberos, Active Directory,]
 enableComments: true

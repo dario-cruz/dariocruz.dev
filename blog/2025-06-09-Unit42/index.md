@@ -1,6 +1,9 @@
 ---
 slug: Unit42-Sherlock
 title: Unit42 (HTB-Sherlock)
+description: HTB Sherlock Unit42 investigation focused on Sysmon logs and threat detection.
+keywords: [Hack The Box, Sherlock, Unit42, Sysmon, threat detection]
+image: /img/itsmedario.webp
 authors: [dcruz]
 tags: [hackthebox, Sherlocks, Threat Detection, Sysmon, EvtxECmd, TimelineExplorer, LogAnalysis, EricZimmermanTools,]
 enableComments: true

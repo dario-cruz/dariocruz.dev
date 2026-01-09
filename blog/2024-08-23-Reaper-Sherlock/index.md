@@ -1,6 +1,9 @@
 ---
 slug: Reaper-HTB-Sherlocks
 title: Reaper(HTB-Sherlocks)
+description: HTB Sherlock Reaper investigation notes focused on NTLM, NetBIOS, and pass-the-hash.
+keywords: [Hack The Box, Sherlock, Reaper, incident response, NTLM]
+image: /img/itsmedario.webp
 authors: [dcruz]
 tags: [Labs, Hackthebox, Incident-Response, Incident-Investigation, NTLM, NetBios, Pass-The-Hash]
 enableComments: true # for Gisqus

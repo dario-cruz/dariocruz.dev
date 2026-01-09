@@ -3,6 +3,7 @@ title: Building a Cybersecurity Home Lab
 description: Building a Cybersecurity Home Lab
 slug: homelab01
 keywords: [Homelab, Cyber, tailscale, detectionlab, proxmox, clustering]
+image: /img/itsmedario.webp
 ---
 
 # Building a CyberSecurity Home Lab

@@ -1,6 +1,9 @@
 ---
 slug: Campfire2-Sherlock
 title: Campfire 2 (HTB-Sherlock)
+description: HTB Sherlock Campfire 2 investigation focused on AS-REP roasting and event logs.
+keywords: [Hack The Box, Sherlock, Campfire, AS-REP roasting, Kerberos]
+image: /img/itsmedario.webp
 authors: [dcruz]
 tags: [hackthebox, Log Analysis, AsRep, AsREP Roasting, Event Logs, Kerberoasting, Kerberos, Active Directory,]
 enableComments: true

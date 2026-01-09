@@ -528,8 +528,8 @@ export default [
     exact: true
   },
   {
-    path: '/certifications/',
-    component: ComponentCreator('/certifications/', '0e5'),
+    path: '/certifications',
+    component: ComponentCreator('/certifications', 'f1d'),
     exact: true
   },
   {

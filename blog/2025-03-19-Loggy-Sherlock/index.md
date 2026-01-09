@@ -1,6 +1,9 @@
 ---
 slug: Loggy-Sherlock
 title: Loggy (HTB-Sherlock)
+description: HTB Sherlock Loggy investigation focused on malware analysis and artifact review.
+keywords: [Hack The Box, Sherlock, Loggy, malware analysis, incident response]
+image: /img/itsmedario.webp
 authors: [dcruz]
 tags: [hackthebox, Malware Analysis, Ghidra, FlareVM, strings, grep, reverse engineering]
 enableComments: true

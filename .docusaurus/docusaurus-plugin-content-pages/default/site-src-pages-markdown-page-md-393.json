@@ -3,9 +3,16 @@
   "permalink": "/markdown-page",
   "source": "@site/src/pages/markdown-page.md",
   "title": "Markdown page example",
-  "description": "You don't need React to write simple standalone pages.",
+  "description": "Example markdown page used for testing.",
   "frontMatter": {
-    "title": "Markdown page example"
+    "title": "Markdown page example",
+    "description": "Example markdown page used for testing.",
+    "keywords": [
+      "markdown",
+      "example",
+      "Docusaurus"
+    ],
+    "image": "/img/itsmedario.webp"
   },
   "unlisted": false
 }

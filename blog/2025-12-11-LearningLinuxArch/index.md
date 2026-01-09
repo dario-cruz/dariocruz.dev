@@ -1,6 +1,9 @@
 ---
 slug: LearningLinuxArch
 title: Learning Linux with Arch
+description: Notes from learning Linux by installing and using Arch.
+keywords: [Linux, Arch Linux, terminal, fdisk, GRUB]
+image: /img/itsmedario.webp
 authors: [dcruz]
 tags: [Linux, Arch, Grub, fdisk, terminal,]
 enableComments: true

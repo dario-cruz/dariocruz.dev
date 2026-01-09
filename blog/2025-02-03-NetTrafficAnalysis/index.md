@@ -1,6 +1,9 @@
 ---
 slug: NetTrafficAnalysis
 title: "What I've Learned - Network Traffic Analysis"
+description: Lessons learned from analyzing network traffic with Wireshark and tcpdump.
+keywords: [network traffic analysis, Wireshark, tcpdump, detection, cybersecurity]
+image: /img/itsmedario.webp
 authors: [dcruz]
 tags: [NetworkTrafficAnalysis, Detection, Wireshark, tcpdump]
 enableComments: true # for Gisqus

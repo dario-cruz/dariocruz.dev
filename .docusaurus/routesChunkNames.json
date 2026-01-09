@@ -171,7 +171,7 @@
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2025-12-11-learning-linux-archcca-839"
+    "content": "content---blog-learning-linux-archcca-e0c"
   },
   "/blog/Loggy-Sherlock-040": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -225,7 +225,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogd-45-981"
+        "content": "content---blog-page-2-d-45-c7b"
       },
       {
         "content": "content---blog-page-2882-778"
@@ -739,7 +739,7 @@
         "content": "content---blog-15-f-667"
       },
       {
-        "content": "content---blogd-45-981"
+        "content": "content---blog-page-2-d-45-c7b"
       },
       {
         "content": "content---blog-page-2-eb-8-060"
@@ -755,7 +755,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogd-45-981"
+        "content": "content---blog-page-2-d-45-c7b"
       }
     ],
     "__props": "__props---blog-tags-hash-cat-2-fa-a33"
@@ -823,7 +823,7 @@
         "content": "content---blog-15-f-667"
       },
       {
-        "content": "content---blogd-45-981"
+        "content": "content---blog-page-2-d-45-c7b"
       },
       {
         "content": "content---blog-page-2-eb-8-060"
@@ -880,7 +880,7 @@
         "content": "content---blog-15-f-667"
       },
       {
-        "content": "content---blogd-45-981"
+        "content": "content---blog-page-2-d-45-c7b"
       },
       {
         "content": "content---blog-page-2-eb-8-060"
@@ -922,7 +922,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogd-45-981"
+        "content": "content---blog-page-2-d-45-c7b"
       }
     ],
     "__props": "__props---blog-tags-llmnree-0-131"
@@ -1080,7 +1080,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogd-45-981"
+        "content": "content---blog-page-2-d-45-c7b"
       },
       {
         "content": "content---blog-page-2-eb-8-060"
@@ -1096,7 +1096,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blogd-45-981"
+        "content": "content---blog-page-2-d-45-c7b"
       }
     ],
     "__props": "__props---blog-tags-offline-brute-forcefff-ca0"
@@ -1412,12 +1412,12 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-unit-42-sherlock-580-598"
   },
-  "/certifications/-0e5": {
+  "/certifications-f1d": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
       "plugin": "plugin---about-a-74-c06"
     },
-    "content": "content---certifications-2-b-2-351"
+    "content": "content---certifications-2-b-2-dd5"
   },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",

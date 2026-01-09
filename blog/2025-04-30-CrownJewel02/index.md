@@ -1,6 +1,9 @@
 ---
 slug: CrownJewel2-Sherlock
 title: CrownJewel 2 (HTB-Sherlock)
+description: HTB Sherlock CrownJewel 2 investigation focused on NTDS exfiltration and timeline analysis.
+keywords: [Hack The Box, Sherlock, CrownJewel, DFIR, NTDS]
+image: /img/itsmedario.webp
 authors: [dcruz]
 tags: [hackthebox, DFIR, DigitalForensics, ActiveDirectory, NTDSDump, ESENT, TimelineExplorer, LogAnalysis, ForensicTools, EricZimmermanTools,]
 enableComments: true
