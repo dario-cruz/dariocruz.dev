@@ -308,3 +308,49 @@ And finally here we are after reboot, successfully booted into Arch Linux.
 ![Successful Boot!](img/Linux%20Deep%20Dive%20-%20Learning%20Linux%20via%20Arch-1765476404848.webp)
 
 From here we can continue to build out the system, adding  various tools and functionality as well as a graphical interface. Keep tabs on the blog for the next post in the series.
+
+## ***Missed Network Config (1-14-2026)***
+Hey everyone. Adding this to the end of the blog post as I had missed a step in setting up networking on our Arch install. After reboot I was not able to get my virtual NIC up and running due to `systemd` not being installed. 
+
+Before reboot we need to pacstrap systemd and then log back into our arch install via `arch-chroot /mnt`. 
+
+**Pacstrap systemd**:
+```bash
+pacstrap -K /mnt systemd
+```
+
+Once that is bootstrapped into our Arch install, we can log into our installation and run the commands below:
+
+```bash
+cat <<EOF > /etc/systemd/network/20-wired.network
+[Match]
+Name=en*
+
+[Network]
+DHCP=yes
+EOF
+
+```
+
+*Replace the `en*` with the name of your ethernet port. If you do not know the ethernet port name then do a `ip link`  to get it's name. 
+
+**Enable and start `systemd`**:
+```bash
+# Enable systemd-networkd
+systemctl enable systemd-networkd.service
+
+# Enable systemd-resolved
+systemctl enable systemd-resolved.service
+```
+
+**Create sym-link for `/etc/resolv.conf`**:
+This step allows for correct DNS resolution to all apps on the Arch install. 
+```bash
+ln -sf ../run.systemd.resolve/stub-resolve.conf /etc/resolv.conf
+```
+
+After this step, exit our of `arch-chroot` and run `umount /mnt && reboot`. 
+
+Once my machine came up and I logged in as root, I did a `ip link` and my ethernet port was up and connected to my network. 
+
+![Arch login and ip link output](img/Linux%20Deep%20Dive%2001%20-%20Learning%20Linux%20via%20Arch-1768404037416.webp)
